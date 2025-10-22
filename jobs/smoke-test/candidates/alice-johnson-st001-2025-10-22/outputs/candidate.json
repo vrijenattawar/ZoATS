@@ -1,0 +1,19 @@
+{
+  "job": "smoke-test",
+  "candidate": "alice-johnson-st001-2025-10-22",
+  "quick": {
+    "timestamp": "2025-10-22T14:11:08.276732Z",
+    "rules": [],
+    "status": "pass",
+    "reasons": []
+  },
+  "scores": {
+    "total": 0,
+    "criteria": []
+  },
+  "fields": {
+    "name": "Senior Frontend Engineer",
+    "email": "alice.johnson@example.com",
+    "years_experience": 5
+  }
+}

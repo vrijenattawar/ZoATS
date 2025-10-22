@@ -1,0 +1,8 @@
+{"command": "jobs-add", "file": "ZoATS/commands/jobs-add.md", "description": "Add one-off job to private list", "category": "jobs", "workflow": "automation"}
+{"command": "jobs-review", "file": "ZoATS/commands/jobs-review.md", "description": "TUI to approve/reject PENDING jobs", "category": "jobs", "workflow": "automation"}
+{"command": "jobs-scrape", "file": "ZoATS/commands/jobs-scrape.md", "description": "Scrape open roles from given company list (TXT file)", "category": "jobs", "workflow": "automation"}
+{"command": "job-source-extract", "file": "ZoATS/commands/job-source-extract.md", "description": "Extract job posting from URL and add to tracking", "category": "jobs", "workflow": "automation", "script": "/home/workspace/ZoATS/scripts/n5_job_source_extract.py"}
+{"command": "job-add", "aliasOf": "job-source-extract", "file": "ZoATS/commands/job-source-extract.md", "description": "Add a job from URL with verification", "category": "jobs", "workflow": "automation", "script": "/home/workspace/ZoATS/scripts/n5_job_source_extract.py"}
+{"command": "candidate-intake", "file": "ZoATS/workers/candidate_intake.md", "description": "Process new candidate from email or upload", "category": "candidates", "workflow": "automation"}
+{"command": "candidate-score", "file": "ZoATS/workers/scoring_engine.md", "description": "Score candidate against job rubric", "category": "candidates", "workflow": "automation"}
+{"command": "pipeline-run", "file": "ZoATS/workers/pipeline_cli.md", "description": "Run full candidate processing pipeline", "category": "pipeline", "workflow": "automation"}

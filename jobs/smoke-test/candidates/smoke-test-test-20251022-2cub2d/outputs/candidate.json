@@ -1,0 +1,19 @@
+{
+  "job": "smoke-test",
+  "candidate": "smoke-test-test-20251022-2cub2d",
+  "quick": {
+    "timestamp": "2025-10-22T14:11:08.994762Z",
+    "rules": [],
+    "status": "pass",
+    "reasons": []
+  },
+  "scores": {
+    "total": 0,
+    "criteria": []
+  },
+  "fields": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "years_experience": 10
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "job": "smoke-test",
+  "stages": {
+    "intake": {
+      "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/candidate_intake/main.py --job smoke-test",
+      "returncode": 0,
+      "stdout": "[inbox] detected 2 bundle(s)\n[hold] no resume-like files in bundle: metadata.json \u2192 staying in inbox_drop/\n[ok] smoke-test-test-20251022-2cub2d created; 1 file(s) moved\n[done] processed 1 bundle(s)\n",
+      "stderr": "",
+      "success": true
+    }
+  },
+  "candidates_processed": 4,
+  "candidate_results": [
+    {
+      "candidate_id": "alice-johnson-st001-2025-10-22",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job smoke-test --candidate alice-johnson-st001-2025-10-22",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-22 14:11:08,220Z INFO Processing: /home/workspace/ZoATS/jobs/smoke-test/candidates/alice-johnson-st001-2025-10-22/raw/alice-johnson-resume.md\n2025-10-22 14:11:08,220Z INFO File size: 247 bytes\n2025-10-22 14:11:08,220Z INFO Reading markdown: /home/workspace/ZoATS/jobs/smoke-test/candidates/alice-johnson-st001-2025-10-22/raw/alice-johnson-resume.md\n2025-10-22 14:11:08,221Z INFO Text sample: # Alice Johnson Senior Frontend Engineer  alice.johnson@example.com | San Francisco, CA  ## Experience **Senior Engineer** | Tech Co | 2020-Present (5 years) - Led React migration - Mentored 4 develop...\n2025-10-22 14:11:08,221Z INFO Extracted fields: {'name': 'Senior Frontend Engineer', 'email': 'alice.johnson@example.com', 'years_experience': 5}\n2025-10-22 14:11:08,222Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/smoke-test/candidates/alice-johnson-st001-2025-10-22/parsed/text.md (246 chars)\n2025-10-22 14:11:08,222Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/smoke-test/candidates/alice-johnson-st001-2025-10-22/parsed/fields.json\n2025-10-22 14:11:08,222Z INFO \u2713 Parsing complete\n",
+          "success": true
+        },
+        "scorer": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/scoring/main.py --job smoke-test --candidate alice-johnson-st001-2025-10-22",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/scoring/main.py:45: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  \"timestamp\": datetime.utcnow().isoformat() + \"Z\",\n2025-10-22 14:11:08,277Z INFO \u2713 Scoring complete\n",
+          "success": true
+        },
+        "dossier": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/dossier/main.py --job smoke-test --candidate alice-johnson-st001-2025-10-22",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/dossier/main.py:43: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  lines.append(f\"- Generated: {datetime.utcnow().isoformat()}Z\")\n2025-10-22 14:11:08,331Z INFO \u2713 Dossier written\n",
+          "success": true
+        }
+      },
+      "status": "complete"
+    },
+    {
+      "candidate_id": "smoke-test-john-doe-20251022-nxbh27",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job smoke-test --candidate smoke-test-john-doe-20251022-nxbh27",
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "2025-10-22 14:11:08,388Z INFO Processing: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-john-doe-20251022-nxbh27/raw/John_Doe_Resume.pdf\n2025-10-22 14:11:08,388Z INFO File size: 51 bytes\n2025-10-22 14:11:08,388Z INFO Extracting PDF: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-john-doe-20251022-nxbh27/raw/John_Doe_Resume.pdf\n2025-10-22 14:11:08,463Z INFO [PDF] Trying pdfminer.six for John_Doe_Resume.pdf\n2025-10-22 14:11:08,523Z INFO [PDF] Trying pypdf for John_Doe_Resume.pdf\n2025-10-22 14:11:08,523Z WARNING EOF marker not found\n2025-10-22 14:11:08,549Z INFO [PDF] Trying PyPDF2 for John_Doe_Resume.pdf\n2025-10-22 14:11:08,550Z ERROR [PDF] All extraction strategies failed for John_Doe_Resume.pdf\n2025-10-22 14:11:08,550Z ERROR [PDF] Tried: pdfminer.six (PDFSyntaxError), pypdf (PdfStreamError), PyPDF2 (PdfReadError), pdfplumber (not installed)\n2025-10-22 14:11:08,550Z ERROR \u2717 Failed to extract text from /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-john-doe-20251022-nxbh27/raw/John_Doe_Resume.pdf\n",
+          "success": false
+        }
+      },
+      "status": "parser_failed"
+    },
+    {
+      "candidate_id": "smoke-test-jane-smith-20251022-6v88a5",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job smoke-test --candidate smoke-test-jane-smith-20251022-6v88a5",
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "2025-10-22 14:11:08,630Z INFO Processing: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-jane-smith-20251022-6v88a5/raw/jane_smith_cv.pdf\n2025-10-22 14:11:08,630Z INFO File size: 20 bytes\n2025-10-22 14:11:08,630Z INFO Extracting PDF: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-jane-smith-20251022-6v88a5/raw/jane_smith_cv.pdf\n2025-10-22 14:11:08,698Z INFO [PDF] Trying pdfminer.six for jane_smith_cv.pdf\n2025-10-22 14:11:08,754Z INFO [PDF] Trying pypdf for jane_smith_cv.pdf\n2025-10-22 14:11:08,754Z WARNING invalid pdf header: b'Test '\n2025-10-22 14:11:08,754Z WARNING EOF marker not found\n2025-10-22 14:11:08,778Z INFO [PDF] Trying PyPDF2 for jane_smith_cv.pdf\n2025-10-22 14:11:08,778Z ERROR [PDF] All extraction strategies failed for jane_smith_cv.pdf\n2025-10-22 14:11:08,778Z ERROR [PDF] Tried: pdfminer.six (PDFSyntaxError), pypdf (PdfStreamError), PyPDF2 (PdfReadError), pdfplumber (not installed)\n2025-10-22 14:11:08,779Z ERROR [PDF] File does not have valid PDF header: b'Test res'\n2025-10-22 14:11:08,779Z ERROR \u2717 Failed to extract text from /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-jane-smith-20251022-6v88a5/raw/jane_smith_cv.pdf\n",
+          "success": false
+        }
+      },
+      "status": "parser_failed"
+    },
+    {
+      "candidate_id": "smoke-test-test-20251022-2cub2d",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job smoke-test --candidate smoke-test-test-20251022-2cub2d",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-22 14:11:08,857Z INFO Processing: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-test-20251022-2cub2d/raw/test_candidate_resume.pdf\n2025-10-22 14:11:08,857Z INFO File size: 1911 bytes\n2025-10-22 14:11:08,857Z INFO Extracting PDF: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-test-20251022-2cub2d/raw/test_candidate_resume.pdf\n2025-10-22 14:11:08,921Z INFO [PDF] Trying pdfminer.six for test_candidate_resume.pdf\n2025-10-22 14:11:08,928Z INFO [PDF] \u2713 pdfminer.six extracted 362 chars\n2025-10-22 14:11:08,929Z INFO Text sample: John Doe john.doe@example.com  Senior Software Engineer  EXPERIENCE  2018-Present: Senior Software Engineer at TechCorp  - Led development of microservices architecture  - 7 years of professional expe...\n2025-10-22 14:11:08,929Z INFO Extracted fields: {'name': 'John Doe', 'email': 'john.doe@example.com', 'years_experience': 10}\n2025-10-22 14:11:08,930Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-test-20251022-2cub2d/parsed/text.md (359 chars)\n2025-10-22 14:11:08,930Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/smoke-test/candidates/smoke-test-test-20251022-2cub2d/parsed/fields.json\n2025-10-22 14:11:08,930Z INFO \u2713 Parsing complete\n",
+          "success": true
+        },
+        "scorer": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/scoring/main.py --job smoke-test --candidate smoke-test-test-20251022-2cub2d",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/scoring/main.py:45: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  \"timestamp\": datetime.utcnow().isoformat() + \"Z\",\n2025-10-22 14:11:08,995Z INFO \u2713 Scoring complete\n",
+          "success": true
+        },
+        "dossier": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/dossier/main.py --job smoke-test --candidate smoke-test-test-20251022-2cub2d",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/dossier/main.py:43: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  lines.append(f\"- Generated: {datetime.utcnow().isoformat()}Z\")\n2025-10-22 14:11:09,053Z INFO \u2713 Dossier written\n",
+          "success": true
+        }
+      },
+      "status": "complete"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "complete": 2,
+    "partial": 0,
+    "failed": 2
+  }
+}
