@@ -1,0 +1,71 @@
+{
+  "candidate_id": "vrijen",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "STRONG_INTERVIEW",
+  "confidence": "high",
+  "key_strengths": [
+    {
+      "category": "Direct Experience",
+      "evidence": "Former employee at target company",
+      "relevance": "Already knows the firm, culture, and work style"
+    },
+    {
+      "category": "Elite Selection",
+      "evidence": "McKinsey & Company",
+      "relevance": "Proven ability to clear high bars"
+    },
+    {
+      "category": "Consulting Background",
+      "evidence": "Direct consulting/strategy experience",
+      "relevance": "Familiar with consulting work and client engagement"
+    },
+    {
+      "category": "Analytical Capability",
+      "evidence": "Strong quantitative/analytical background",
+      "relevance": "Can handle data-driven problem solving"
+    }
+  ],
+  "concerns": [],
+  "overall_narrative": "Former employee at target company. Direct experience makes this a strong fit worth immediate conversation.",
+  "interview_focus": [],
+  "clarification_questions": null,
+  "ai_detection": {
+    "likelihood": "low",
+    "confidence": 0.7,
+    "flags": [],
+    "reasoning": "Detected 0 generic phrases. Has specific metrics."
+  },
+  "elite_signals": [
+    {
+      "type": "elite_company",
+      "detail": "McKinsey & Company",
+      "boost_factor": 1.4
+    },
+    {
+      "type": "top_tier_mba",
+      "detail": "Cornell MBA",
+      "boost_factor": 1.15
+    }
+  ],
+  "business_impact": [
+    {
+      "value": 4,
+      "type": "revenue",
+      "context": "identifying $4M in low-lift up-sell and cross-sell opportunities at McKinsey",
+      "confidence": 0.95
+    },
+    {
+      "value": 0.65,
+      "type": "revenue",
+      "context": "Generated $650K+ in annual B2C revenue at The Keys Admissions",
+      "confidence": 0.9
+    },
+    {
+      "value": 0.425,
+      "type": "revenue",
+      "context": "B2C revenue of $425K+ at The Academy",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-10-24T02:19:56.283077Z"
+}

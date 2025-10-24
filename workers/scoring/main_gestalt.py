@@ -49,7 +49,7 @@ def main():
         
         # Evaluate
         logger.info(f"Evaluating {args.candidate} for {args.job}...")
-        result = evaluate_gestalt(resume_text, rubric, args.job, args.candidate)
+        result = evaluate_gestalt(resume_text, rubric, args.job, args.candidate, candidate_dir=candidate_dir)
         
         # Write output
         output_dir = candidate_dir / "outputs"

@@ -1,0 +1,59 @@
+{
+  "decision": "STRONG_INTERVIEW",
+  "confidence": "high",
+  "gestalt": {
+    "compelling_strengths": [
+      "Tier-2 consulting + top MBA - strong preparation",
+      "Significant business impact: $150M"
+    ],
+    "gaps": [],
+    "unique_bundle": "Consulting background with elite education",
+    "why_interview_worthy": "Consulting background with elite education"
+  },
+  "clarification": null,
+  "interview_guidance": {
+    "focus_areas": [],
+    "risks": [],
+    "strengths_to_validate": [
+      "Tier-2 consulting + top MBA - strong preparation",
+      "Significant business impact: $150M"
+    ]
+  },
+  "signals": {
+    "business_impact": [
+      {
+        "value": "$150M",
+        "type": "growth"
+      },
+      {
+        "value": "$80M",
+        "type": "revenue"
+      },
+      {
+        "value": "$12M",
+        "type": "revenue"
+      }
+    ],
+    "elite_markers": [
+      "Worked at Deloitte Consulting",
+      "Worked at Google",
+      "Worked at Microsoft"
+    ],
+    "capabilities": {
+      "analytical_depth": 0.9,
+      "consulting_skills": 0.9142857142857143
+    },
+    "ai_detection": {
+      "likelihood": "low",
+      "confidence": 0.3,
+      "flags": [],
+      "scores": {
+        "burstiness": 2.61,
+        "generic_phrase_count": 0,
+        "specificity": 1.0
+      }
+    }
+  },
+  "timestamp": "2025-10-23T16:30:25.998405Z",
+  "source": "gestalt_v1"
+}

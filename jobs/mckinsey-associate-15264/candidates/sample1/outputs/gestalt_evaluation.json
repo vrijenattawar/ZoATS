@@ -1,0 +1,75 @@
+{
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "STRONG_INTERVIEW",
+  "confidence": "medium",
+  "key_strengths": [
+    {
+      "category": "Quantified Impact",
+      "evidence": "$90M revenue",
+      "relevance": "Demonstrated ability to drive large-scale business outcomes"
+    },
+    {
+      "category": "Elite Selection",
+      "evidence": "Cornell MBA",
+      "relevance": "Proven ability to clear high bars"
+    },
+    {
+      "category": "Analytical Capability",
+      "evidence": "Strong quantitative/analytical background",
+      "relevance": "Can handle data-driven problem solving"
+    }
+  ],
+  "concerns": [
+    {
+      "issue": "No direct consulting experience",
+      "severity": "moderate",
+      "can_mitigate": true
+    }
+  ],
+  "overall_narrative": "Compelling combination of signals. Strong candidate worth interviewing.",
+  "interview_focus": [
+    "Assess ability to structure ambiguous problems",
+    "Gauge comfort with client-facing work"
+  ],
+  "clarification_questions": null,
+  "ai_detection": {
+    "likelihood": "low",
+    "confidence": 0.7,
+    "flags": [],
+    "reasoning": "Detected 0 generic phrases. Has specific metrics."
+  },
+  "elite_signals": [
+    {
+      "type": "top_tier_mba",
+      "detail": "Cornell MBA",
+      "boost_factor": 1.15
+    },
+    {
+      "type": "elite_program",
+      "detail": "Israel Defense Forces Elite Technology Unit (4% acceptance)",
+      "boost_factor": 1.3
+    }
+  ],
+  "business_impact": [
+    {
+      "value": 90,
+      "type": "revenue",
+      "context": "Launched automated migration tool producing additional $90M in sales at eBay",
+      "confidence": 0.95
+    },
+    {
+      "value": 15,
+      "type": "cost_savings",
+      "context": "Software resulted in $15M savings in operational costs at Intel",
+      "confidence": 0.9
+    },
+    {
+      "value": 0.25,
+      "type": "cost_savings",
+      "context": "Monitoring software saving $250K annual operating expenses at Intel",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-10-24T02:19:56.840808Z"
+}

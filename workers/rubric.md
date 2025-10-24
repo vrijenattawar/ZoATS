@@ -1,46 +1,45 @@
 # Rubric Generator (Worker)
-Status: Draft | Owner: con_Sq70IglhvzX4GJE3
 
-Purpose
-- Convert a Job Description (JD) and optional founder notes into a structured rubric with weighted criteria and scoring bands, plus deal-breakers.
+Status: MVP complete
 
-Inputs
-- jobs/<job>/job-description.md
-- Optional: jobs/<job>/founder-notes.md
+---
 
-Outputs
-- jobs/<job>/rubric.json (criteria, weights sum=100, bands)
-- jobs/<job>/rubric.md (human-readable)
-- jobs/<job>/deal_breakers.json
+## Purpose
+Convert a job description (and optional founder notes) into a structured scoring rubric with criteria, weights, and evaluation bands. Also extract deal breakers.
 
-Interface
-- `python workers/rubric/main.py --jd jobs/<job>/job-description.md --out jobs/<job>/rubric.json [--founder-notes jobs/<job>/founder-notes.md] [--interactive | --non-interactive] --dry-run`
+## Inputs
+- jobs/<job>/job-description.md (required)
+- Founder notes (optional): free text; may include structured hints like `Must: X`, `Should: Y`, `Nice: Z`
 
-Tonight Milestones
-- Non-interactive JD→rubric: rubric.json + rubric.md
-- Optional: minimal interactive prompts
+## Outputs
+- jobs/<job>/rubric.json — machine-readable rubric
+- jobs/<job>/rubric.md — human-readable rubric
+- jobs/<job>/deal_breakers.json — extracted hard requirements
 
-Definition of Done (Night 1)
-- Valid JSON written, weights sum to 100, at least 5 criteria, deal-breakers supported
-- MD summary present and readable
+## Interface
+```
+python workers/rubric/main.py --jd jobs/<job>/job-description.md --out jobs/<job>/rubric.json [--founder-notes <file>] [--interactive|--non-interactive] --dry-run
+```
 
-Dependencies
-- None (reads local files)
+## Behavior (MVP)
+- Heuristic parsing:
+  - Recognizes sections: Requirements, Responsibilities, Other
+  - Classifies bullets into tiers (Must / Should / Nice) via keywords
+  - Weight allocation: 60% Must, 30% Should, 10% Nice → normalized to 100
+  - Deal breakers: phrases with hard-requirement language (authorization, clearance, on-site, degree required, etc.)
+- Bands: Meets/Below definitions for each tier
+- Quality: logging, `--dry-run`, verification (weights sum to 100)
 
-Risks & Mitigations
-- Over-complex rubrics → start with Must/Should/Nice; document assumptions
+## Example
+```
+python workers/rubric/main.py \
+  --jd jobs/demo/job-description.md \
+  --out jobs/demo/rubric.json \
+  --non-interactive --dry-run
+```
 
-Checklist (Night 1)
-- [ ] Parse JD into key requirements
-- [ ] Draft criteria and weights
-- [ ] Emit rubric.json, rubric.md, deal_breakers.json
-- [ ] Verify totals and file existence
-
-Paths
-- jobs/<job>/
-
-Integration Points
-- Scoring Engine consumes rubric.json and deal_breakers.json
-
-Notes
-- Socratic flow optional; keep prompts minimal tonight
+## Next Iterations
+- Improve section detection beyond simple heading matches
+- Add optional Socratic refinement flow
+- Allow custom bucket weights via config
+- Add schema and validation for rubric.json

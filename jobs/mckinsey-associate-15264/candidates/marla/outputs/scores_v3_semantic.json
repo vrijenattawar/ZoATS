@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-23T03:25:56.084714Z",
+  "candidate_id": "marla",
+  "job_id": "mckinsey-associate-15264",
+  "total": 54.7,
+  "scores": [
+    {
+      "criterion_id": "analytical_horsepower",
+      "criterion_name": "Analytical & Problem-Solving Capability",
+      "weight": 20.0,
+      "score": 6,
+      "weighted_score": 12.0,
+      "evidence": "Quantitative analysis mentions",
+      "reasoning": "Some analytical work evident",
+      "match_type": "transferable",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "client_impact",
+      "criterion_name": "Client Engagement & Impact",
+      "weight": 15.0,
+      "score": 6,
+      "weighted_score": 9.0,
+      "evidence": "Coaching/advisory work",
+      "reasoning": "Client-facing work, transferable to consulting",
+      "match_type": "transferable",
+      "transferable_note": "Career coaching \u2192 client engagement skills"
+    },
+    {
+      "criterion_id": "business_acumen",
+      "criterion_name": "Business & Functional Knowledge",
+      "weight": 15.0,
+      "score": 5,
+      "weighted_score": 7.5,
+      "evidence": "Some relevant signals",
+      "reasoning": "Moderate evidence of capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "communication",
+      "criterion_name": "Communication & Synthesis",
+      "weight": 12.0,
+      "score": 6,
+      "weighted_score": 7.2,
+      "evidence": "Coaching/advisory work",
+      "reasoning": "Client-facing work, transferable to consulting",
+      "match_type": "transferable",
+      "transferable_note": "Career coaching \u2192 client engagement skills"
+    },
+    {
+      "criterion_id": "learning_velocity",
+      "criterion_name": "Learning Agility & Adaptability",
+      "weight": 10.0,
+      "score": 5,
+      "weighted_score": 5.0,
+      "evidence": "Some relevant signals",
+      "reasoning": "Moderate evidence of capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "leadership_potential",
+      "criterion_name": "Leadership & Initiative",
+      "weight": 10.0,
+      "score": 5,
+      "weighted_score": 5.0,
+      "evidence": "Some relevant signals",
+      "reasoning": "Moderate evidence of capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "quantitative_aptitude",
+      "criterion_name": "Quantitative & Technical Capability",
+      "weight": 8.0,
+      "score": 5,
+      "weighted_score": 4.0,
+      "evidence": "Some relevant signals",
+      "reasoning": "Moderate evidence of capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "academic_pedigree",
+      "criterion_name": "Educational Background",
+      "weight": 5.0,
+      "score": 5,
+      "weighted_score": 2.5,
+      "evidence": "Some relevant signals",
+      "reasoning": "Moderate evidence of capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "industry_depth",
+      "criterion_name": "Industry Expertise",
+      "weight": 5.0,
+      "score": 5,
+      "weighted_score": 2.5,
+      "evidence": "Some relevant signals",
+      "reasoning": "Moderate evidence of capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    }
+  ],
+  "meta_signals": {
+    "trajectory": "moderate",
+    "trajectory_note": "Moderate progression",
+    "achievement_density": "moderate",
+    "achievement_note": "Some outcomes visible",
+    "narrative_coherence": "strong",
+    "narrative_note": "Clear career story",
+    "learning_velocity": "fast",
+    "learning_note": "Rapid domain acquisition evident"
+  },
+  "red_flags": [],
+  "overall_impression": "Moderate candidate with some transferable skills.",
+  "recommendation": "review",
+  "source": "scoring_v3_semantic"
+}

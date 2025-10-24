@@ -1,0 +1,135 @@
+{
+  "job": "mckinsey-associate-15264",
+  "candidate": "sample1",
+  "quick": {
+    "status": "pass",
+    "rules_triggered": [],
+    "reasons": [],
+    "timestamp": "2025-10-24T01:01:03.262129Z"
+  },
+  "scores": {
+    "total_weighted_score": 79.6,
+    "total_max_weighted": 100.0,
+    "total_percentage": 79.6,
+    "scores_by_criterion": [
+      {
+        "criterion_id": "analytical_horsepower",
+        "criterion_name": "Analytical & Problem-Solving Capability",
+        "weight": 20.0,
+        "score": 9,
+        "weighted_score": 18.0,
+        "evidence": "Strong quantitative/data analysis background",
+        "reasoning": "Evidence of data-driven analytical work",
+        "match_type": "direct",
+        "transferable_note": ""
+      },
+      {
+        "criterion_id": "client_impact",
+        "criterion_name": "Client Engagement & Impact",
+        "weight": 15.0,
+        "score": 7,
+        "weighted_score": 10.5,
+        "evidence": "Coaching/advisory work",
+        "reasoning": "Transferable client-facing skills from coaching/advisory",
+        "match_type": "transferable",
+        "transferable_note": "Career coaching \u2192 stakeholder management"
+      },
+      {
+        "criterion_id": "business_acumen",
+        "criterion_name": "Business & Functional Knowledge",
+        "weight": 15.0,
+        "score": 9,
+        "weighted_score": 13.5,
+        "evidence": "3 quantified business outcomes",
+        "reasoning": "Multiple business impacts demonstrate functional knowledge",
+        "match_type": "direct",
+        "transferable_note": ""
+      },
+      {
+        "criterion_id": "communication",
+        "criterion_name": "Communication & Synthesis",
+        "weight": 12.0,
+        "score": 7,
+        "weighted_score": 8.4,
+        "evidence": "Coaching/advisory work",
+        "reasoning": "Transferable client-facing skills from coaching/advisory",
+        "match_type": "transferable",
+        "transferable_note": "Career coaching \u2192 stakeholder management"
+      },
+      {
+        "criterion_id": "learning_velocity",
+        "criterion_name": "Learning Agility & Adaptability",
+        "weight": 10.0,
+        "score": 9,
+        "weighted_score": 9.0,
+        "evidence": "Career transitions/diverse experience",
+        "reasoning": "Demonstrated learning agility through career moves",
+        "match_type": "direct",
+        "transferable_note": ""
+      },
+      {
+        "criterion_id": "leadership_potential",
+        "criterion_name": "Leadership & Initiative",
+        "weight": 10.0,
+        "score": 7,
+        "weighted_score": 7.0,
+        "evidence": "Senior title(s)",
+        "reasoning": "Leadership implied by seniority",
+        "match_type": "potential",
+        "transferable_note": ""
+      },
+      {
+        "criterion_id": "quantitative_aptitude",
+        "criterion_name": "Quantitative & Technical Capability",
+        "weight": 8.0,
+        "score": 9,
+        "weighted_score": 7.2,
+        "evidence": "Strong quantitative/data analysis background",
+        "reasoning": "Evidence of data-driven analytical work",
+        "match_type": "direct",
+        "transferable_note": ""
+      },
+      {
+        "criterion_id": "academic_pedigree",
+        "criterion_name": "Educational Background",
+        "weight": 5.0,
+        "score": 7,
+        "weighted_score": 3.5,
+        "evidence": "Graduate degree",
+        "reasoning": "Graduate education present",
+        "match_type": "direct",
+        "transferable_note": ""
+      },
+      {
+        "criterion_id": "industry_depth",
+        "criterion_name": "Industry Expertise",
+        "weight": 5.0,
+        "score": 5,
+        "weighted_score": 2.5,
+        "evidence": "Limited industry context",
+        "reasoning": "Unclear domain expertise",
+        "match_type": "none",
+        "transferable_note": ""
+      }
+    ],
+    "meta_signals": {
+      "trajectory": "ascending",
+      "trajectory_note": "Clear upward progression with increasing responsibility",
+      "achievement_density": "high",
+      "achievement_note": "3 quantified business outcomes",
+      "narrative_coherence": "strong",
+      "narrative_note": "Clear career narrative with logical progression",
+      "learning_velocity": "fast",
+      "learning_note": "Rapid skill acquisition and adaptation evident"
+    },
+    "red_flags": [],
+    "overall_assessment": "Strong candidate - meets most requirements with room for development (Elite signal: Selected from 4.0% pool)",
+    "timestamp": "2025-10-24T01:01:03.262017Z",
+    "scoring_method": "heuristic"
+  },
+  "fields": {
+    "name": "ANTON BECKERMAN",
+    "email": "ab2534@cornell.edu",
+    "years_experience": 10
+  }
+}

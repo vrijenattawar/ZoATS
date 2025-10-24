@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-24T02:19:55.547475Z",
+  "candidate_id": "whitney",
+  "job_id": "mckinsey-associate-15264",
+  "hard_disqualifiers": [],
+  "hard_disqualifier_status": "pass",
+  "soft_disqualifiers": [],
+  "red_flags": [],
+  "early_score_estimate": 85,
+  "confidence": "high",
+  "recommendation": "pass",
+  "reasoning": "Strong early signals (estimated score: 85)",
+  "source": "quick_test_v2"
+}

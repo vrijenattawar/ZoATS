@@ -1,0 +1,132 @@
+{
+  "role_type": "product-manager",
+  "description": "Product strategy, customer focus, cross-functional leadership",
+  "default_criteria": [
+    {
+      "id": "product_sense",
+      "name": "Product Sense & Customer Empathy",
+      "description": "Understanding user needs, identifying product opportunities",
+      "weight": 20,
+      "tier": "must",
+      "evaluation_guidance": {
+        "9-10": "Shipped successful products, clear user research and validation",
+        "7-8": "Led product features with user insights",
+        "5-6": "Participated in product decisions",
+        "3-4": "Limited product exposure",
+        "0-2": "No product experience"
+      },
+      "keywords": ["product", "user research", "customer", "product-market fit", "user needs"]
+    },
+    {
+      "id": "execution",
+      "name": "Execution & Delivery",
+      "description": "Shipping products on time, managing scope, unblocking teams",
+      "weight": 18,
+      "tier": "must",
+      "evaluation_guidance": {
+        "9-10": "Shipped major products, clear process ownership, strong delivery track record",
+        "7-8": "Delivered multiple features, managed roadmap",
+        "5-6": "Contributed to execution",
+        "3-4": "Limited delivery responsibility",
+        "0-2": "No execution evidence"
+      },
+      "keywords": ["shipped", "delivered", "launch", "execution", "roadmap"]
+    },
+    {
+      "id": "cross_functional_leadership",
+      "name": "Cross-Functional Leadership",
+      "description": "Working with engineering, design, business stakeholders",
+      "weight": 15,
+      "tier": "must",
+      "evaluation_guidance": {
+        "9-10": "Led large cross-functional initiatives, strong influence without authority",
+        "7-8": "Regular cross-functional collaboration, clear leadership moments",
+        "5-6": "Worked with multiple teams",
+        "3-4": "Limited cross-functional work",
+        "0-2": "No evidence"
+      },
+      "keywords": ["cross-functional", "collaboration", "engineering", "design", "stakeholders"]
+    },
+    {
+      "id": "strategy",
+      "name": "Product Strategy & Vision",
+      "description": "Setting product direction, prioritization, strategic thinking",
+      "weight": 15,
+      "tier": "should",
+      "evaluation_guidance": {
+        "9-10": "Defined product strategy, clear vision artifacts, strategic impact",
+        "7-8": "Contributed to strategy, prioritization decisions",
+        "5-6": "Tactical planning",
+        "3-4": "Limited strategic work",
+        "0-2": "No strategy evidence"
+      },
+      "keywords": ["strategy", "vision", "prioritization", "roadmap", "strategic"]
+    },
+    {
+      "id": "data_driven",
+      "name": "Data-Driven Decision Making",
+      "description": "Using metrics, A/B testing, analytics to inform decisions",
+      "weight": 12,
+      "tier": "should",
+      "evaluation_guidance": {
+        "9-10": "Designed experiments, deep metric ownership, data-informed product decisions",
+        "7-8": "Regular use of analytics, A/B testing",
+        "5-6": "Some data analysis",
+        "3-4": "Limited data usage",
+        "0-2": "No data evidence"
+      },
+      "keywords": ["metrics", "data", "analytics", "A/B testing", "experiments", "KPIs"]
+    },
+    {
+      "id": "communication_pm",
+      "name": "Communication & Influence",
+      "description": "Stakeholder management, presentations, documentation",
+      "weight": 10,
+      "tier": "should",
+      "evaluation_guidance": {
+        "9-10": "Executive communication, clear influence on org decisions",
+        "7-8": "Regular stakeholder updates, strong documentation",
+        "5-6": "Team-level communication",
+        "3-4": "Limited communication artifacts",
+        "0-2": "No evidence"
+      },
+      "keywords": ["communication", "stakeholder", "presentations", "influence", "documentation"]
+    },
+    {
+      "id": "technical_fluency",
+      "name": "Technical Fluency",
+      "description": "Understanding technology tradeoffs, working effectively with engineers",
+      "weight": 5,
+      "tier": "nice",
+      "evaluation_guidance": {
+        "9-10": "Technical background, deep tech discussions with engineers",
+        "7-8": "Solid technical understanding, credible with engineers",
+        "5-6": "Basic technical knowledge",
+        "3-4": "Limited technical fluency",
+        "0-2": "No technical background"
+      },
+      "keywords": ["technical", "engineering", "technology", "architecture"]
+    },
+    {
+      "id": "company_stage",
+      "name": "Company Stage Experience",
+      "description": "Relevant experience at similar company stage (startup vs enterprise)",
+      "weight": 5,
+      "tier": "nice",
+      "evaluation_guidance": {
+        "9-10": "Deep experience at target company stage",
+        "7-8": "Relevant stage experience",
+        "5-6": "Some exposure to target stage",
+        "3-4": "Different company stage experience",
+        "0-2": "No relevant stage experience"
+      },
+      "keywords": ["startup", "enterprise", "scale-up", "early-stage"]
+    }
+  ],
+  "meta_signals": {
+    "trajectory": "Career progression (scope, impact, responsibility)",
+    "achievement_density": "Product wins, shipped features, measurable impact",
+    "narrative_coherence": "Logical career story, intentional growth",
+    "learning_velocity": "Speed of domain/skill acquisition"
+  }
+}

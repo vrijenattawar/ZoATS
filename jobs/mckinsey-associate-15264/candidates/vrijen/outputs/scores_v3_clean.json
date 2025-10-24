@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-10-23T15:29:46.841129Z",
+  "candidate_id": "vrijen",
+  "job_id": "mckinsey-associate-15264",
+  "total": 84.0,
+  "scores": [
+    {
+      "criterion_id": "analytical_horsepower",
+      "criterion_name": "Analytical & Problem-Solving Capability",
+      "weight": 20.0,
+      "score": 10,
+      "weighted_score": 20.0,
+      "evidence": "McKinsey analytical rigor",
+      "reasoning": "Proven through McKinsey tenure [Elite boost: 9.0\u219210.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "direct"
+    },
+    {
+      "criterion_id": "client_impact",
+      "criterion_name": "Client Engagement & Impact",
+      "weight": 15.0,
+      "score": 8.0,
+      "weighted_score": 12.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "business_acumen",
+      "criterion_name": "Business & Functional Knowledge",
+      "weight": 15.0,
+      "score": 8.0,
+      "weighted_score": 12.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "communication",
+      "criterion_name": "Communication & Synthesis",
+      "weight": 12.0,
+      "score": 8.0,
+      "weighted_score": 9.6,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "learning_velocity",
+      "criterion_name": "Learning Agility & Adaptability",
+      "weight": 10.0,
+      "score": 8.0,
+      "weighted_score": 8.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "leadership_potential",
+      "criterion_name": "Leadership & Initiative",
+      "weight": 10.0,
+      "score": 8.0,
+      "weighted_score": 8.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "quantitative_aptitude",
+      "criterion_name": "Quantitative & Technical Capability",
+      "weight": 8.0,
+      "score": 8.0,
+      "weighted_score": 6.4,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "academic_pedigree",
+      "criterion_name": "Educational Background",
+      "weight": 5.0,
+      "score": 8.0,
+      "weighted_score": 4.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "industry_depth",
+      "criterion_name": "Industry Expertise",
+      "weight": 5.0,
+      "score": 8.0,
+      "weighted_score": 4.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Cornell degree, Worked at Mckinsey]",
+      "match_type": "transferable"
+    }
+  ],
+  "meta_signals": {
+    "business_impacts": [
+      {
+        "type": "revenue",
+        "value": "$4.0M",
+        "confidence": 0.7
+      },
+      {
+        "type": "revenue",
+        "value": "$0.7M",
+        "confidence": 0.9
+      },
+      {
+        "type": "revenue",
+        "value": "$0.4M",
+        "confidence": 0.7
+      }
+    ],
+    "elite_signals": [
+      {
+        "type": "top_tier_institution",
+        "detail": "Cornell degree",
+        "boost": 1.15
+      },
+      {
+        "type": "elite_company",
+        "detail": "Worked at Mckinsey",
+        "boost": 1.4
+      }
+    ],
+    "capability_proxies": {
+      "analytical_depth": 0.7222222222222222,
+      "consulting_skills": 0.8428571428571427
+    },
+    "ai_detection": {
+      "likelihood": "low",
+      "confidence": 0.3,
+      "flags": [],
+      "scores": {
+        "burstiness": 1.45,
+        "generic_phrase_count": 0,
+        "specificity": 1.0
+      }
+    }
+  },
+  "red_flags": [],
+  "overall_impression": "Strong candidate. Cornell degree, Worked at Mckinsey",
+  "recommendation": "strong_pass",
+  "source": "scoring_v3_clean"
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_id": "vrijen",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "STRONG_INTERVIEW",
+  "confidence": "high",
+  "quick_test_status": "unknown",
+  "gestalt_summary": "Former employee at target company. Direct experience makes this a strong fit worth immediate conversation.",
+  "top_3_strengths": [
+    "Direct Experience",
+    "Elite Selection",
+    "Consulting Background"
+  ],
+  "top_3_concerns": [],
+  "elite_signal_count": 2,
+  "business_impact_count": 3,
+  "ai_detection_likelihood": "low",
+  "has_clarification_questions": false,
+  "recommended_action": "\u2713 **Priority scheduling** \u2014 Move to immediate interview scheduling",
+  "contact": {
+    "name": "VRIJEN S. ATTAWAR",
+    "email": "vsa6@cornell.edu",
+    "phone": "N/A"
+  },
+  "timestamp": "2025-10-24T02:19:56.349141+00:00"
+}

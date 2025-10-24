@@ -1,0 +1,17 @@
+{
+  "request_id": "mckinsey-associate-15264_sample1_1761268496",
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "questions": [
+    "Can you describe a specific analytical problem-solving example?",
+    "What motivates your transition to consulting?",
+    "How does your technical background translate?"
+  ],
+  "rationale": "MAYBE decision. Concerns: ",
+  "candidate_summary": "Elite consulting background with $50M+ business impact. Strong traditional candidate.",
+  "status": "pending",
+  "employer_feedback": null,
+  "modified_questions": null,
+  "created_at": "2025-10-24T01:14:56.606625Z",
+  "resolved_at": null
+}

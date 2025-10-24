@@ -1,0 +1,14 @@
+{
+  "type": "clarification_email",
+  "request_id": "mckinsey-associate-15264_sample1_1761242771",
+  "to": "ab2534@cornell.edu",
+  "subject": "Additional information needed - Jobs | Careers | McKinsey & Company position",
+  "body": "Dear Applicant,\n\nThank you for your application for the Jobs | Careers | McKinsey & Company position. We've reviewed your background and are interested in learning more about your experience.\n\nBefore scheduling an interview, we'd like to better understand a few aspects of your background:\n\n1. Can you describe a specific example where you applied analytical problem-solving to drive business results?\n2. What motivated your transition from technical data engineering to business management and strategy?\n3. How do you see your quantitative background translating to client-facing consulting work?\n\nPlease respond to these questions by October 28, 2025. We appreciate your time and look forward to hearing from you.\n\nBest regards,\nThe hiring team\n\n---\nTo respond, simply reply to this email with your answers.\n",
+  "method": "gmail",
+  "status": "sent",
+  "result": {
+    "status": "sent",
+    "message_id": "sim_ab2534@cornell.edu_1761247734.50475",
+    "sent_at": "2025-10-23T19:28:54.504804Z"
+  }
+}

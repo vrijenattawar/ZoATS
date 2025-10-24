@@ -1,0 +1,15 @@
+{
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "to_email": "ab2534@cornell.edu",
+  "subject": "Additional information needed - Jobs | Careers | McKinsey & Company position",
+  "body": "Dear Applicant,\n\nThank you for your application for the Jobs | Careers | McKinsey & Company position. We've reviewed your background and are interested in learning more about your experience.\n\nBefore scheduling an interview, we'd like to better understand a few aspects of your background:\n\n1. Can you describe a specific analytical problem-solving example?\n2. What motivates your transition to consulting?\n3. How does your technical background translate?\n\nPlease respond to these questions by October 29, 2025. We appreciate your time and look forward to hearing from you.\n\nBest regards,\nThe hiring team\n\n---\nTo respond, simply reply to this email with your answers.\n",
+  "questions": [
+    "Can you describe a specific analytical problem-solving example?",
+    "What motivates your transition to consulting?",
+    "How does your technical background translate?"
+  ],
+  "deadline": "2025-10-29T01:16:47.839446Z",
+  "status": "draft",
+  "created_at": "2025-10-24T01:16:47.839467Z"
+}

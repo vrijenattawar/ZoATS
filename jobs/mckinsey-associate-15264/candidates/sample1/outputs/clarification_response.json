@@ -1,0 +1,12 @@
+{
+  "request_id": "mckinsey-associate-15264_sample1_1761242771",
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "received_at": "2025-10-24T10:30:00.000000Z",
+  "answers": {
+    "q1": "At eBay, I led a cross-functional analysis of our product recommendation engine which was underperforming. I conducted a deep-dive statistical analysis using SQL and Python, identified that our collaborative filtering weights were over-indexed on browse history versus purchase history. I proposed and implemented a reweighting strategy that increased conversion by 12% and generated $90M in incremental revenue. This required synthesizing insights from customer data, A/B test results, and stakeholder input from product, engineering, and business teams.",
+    "q2": "After five years in data engineering, I realized my impact was limited to optimizing existing systems. I wanted to drive strategic decisions at a higher level. My experience at eBay showed me that the most valuable work happened at the intersection of data, business strategy, and stakeholder alignment—classic consulting skills. I pursued my Cornell MBA specifically to transition into strategy roles where I could leverage my technical foundation to solve broader business problems.",
+    "q3": "My quantitative background is my superpower in consulting. I can quickly parse complex datasets, identify patterns others miss, and translate technical findings into executive-friendly narratives. In consulting, this means I can support the analytical rigor while also building trust with C-level clients. My engineering experience taught me to ask the right questions before diving into analysis, which is exactly what consultants do in scoping engagements."
+  },
+  "status": "received"
+}

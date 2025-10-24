@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-10-24T02:19:54.979973Z",
+  "candidate_id": "marla",
+  "job_id": "mckinsey-associate-15264",
+  "hard_disqualifiers": [],
+  "hard_disqualifier_status": "pass",
+  "soft_disqualifiers": [
+    {
+      "flag": "possible_job_hopping",
+      "severity": "low",
+      "detail": "Many role mentions (15) - verify tenure"
+    }
+  ],
+  "red_flags": [
+    {
+      "flag": "lack_of_quantified_impact",
+      "evidence": "Only 0 quantified achievements"
+    }
+  ],
+  "early_score_estimate": null,
+  "confidence": null,
+  "recommendation": "pass",
+  "reasoning": "No major concerns in quick test",
+  "source": "quick_test_v2"
+}

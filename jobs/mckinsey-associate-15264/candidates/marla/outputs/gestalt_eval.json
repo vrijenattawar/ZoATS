@@ -1,0 +1,41 @@
+{
+  "decision": "BACKUP",
+  "confidence": "low",
+  "gestalt": {
+    "compelling_strengths": [
+      "Strong educational background"
+    ],
+    "gaps": [
+      "No consulting experience",
+      "Limited business impact evident"
+    ],
+    "unique_bundle": "Education is strong but experience doesn't align",
+    "why_interview_worthy": null
+  },
+  "clarification": null,
+  "interview_guidance": null,
+  "signals": {
+    "business_impact": [],
+    "elite_markers": [
+      "Harvard degree",
+      "Cambridge degree",
+      "Worked at Google"
+    ],
+    "capabilities": {
+      "analytical_depth": 0.7222222222222222,
+      "consulting_skills": 0.0
+    },
+    "ai_detection": {
+      "likelihood": "low",
+      "confidence": 0.34,
+      "flags": [],
+      "scores": {
+        "burstiness": 0.74,
+        "generic_phrase_count": 1,
+        "specificity": 0.98
+      }
+    }
+  },
+  "timestamp": "2025-10-23T16:30:26.905257Z",
+  "source": "gestalt_v1"
+}

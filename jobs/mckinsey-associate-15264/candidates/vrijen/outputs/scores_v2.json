@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-23T02:45:10.308793Z",
+  "candidate_id": "vrijen",
+  "job_id": "mckinsey-associate-15264",
+  "total_score": 48.0,
+  "criterion_scores": [
+    {
+      "criterion_id": "analytical_horsepower",
+      "criterion_name": "Analytical & Problem-Solving Capability",
+      "weight": 20.0,
+      "score": 0,
+      "weighted_score": 0.0,
+      "evidence": "No direct evidence",
+      "reasoning": "No evidence found",
+      "match_type": "none"
+    },
+    {
+      "criterion_id": "client_impact",
+      "criterion_name": "Client Engagement & Impact",
+      "weight": 15.0,
+      "score": 10,
+      "weighted_score": 15.0,
+      "evidence": "\u2022  Generated $650K+ in annual B2C revenue through high-touch client interactions, yielding 90%+ | High Tech Club, Access Johnson (VP, Marketing), Consulting Club, Entrepreneurship Club | Certifications ScrumAlliance Certified ScrumMaster\u00ae, Gainsight Customer Success Manager (Level I)",
+      "reasoning": "Strong keyword match (9/5 keywords)",
+      "match_type": "direct"
+    },
+    {
+      "criterion_id": "business_acumen",
+      "criterion_name": "Business & Functional Knowledge",
+      "weight": 15.0,
+      "score": 9,
+      "weighted_score": 13.5,
+      "evidence": "\u2022  Analyzed customer interviews and results from biannual focus groups to hone pricing strategy, | Co-founder & Head of Sales and Business Development\\",
+      "reasoning": "Strong keyword match (4/6 keywords)",
+      "match_type": "direct"
+    },
+    {
+      "criterion_id": "communication",
+      "criterion_name": "Communication & Synthesis",
+      "weight": 12.0,
+      "score": 4,
+      "weighted_score": 4.800000000000001,
+      "evidence": "Chief Executive Officer\\",
+      "reasoning": "Weak match (1/5 keywords)",
+      "match_type": "weak"
+    },
+    {
+      "criterion_id": "learning_velocity",
+      "criterion_name": "Learning Agility & Adaptability",
+      "weight": 10.0,
+      "score": 0,
+      "weighted_score": 0.0,
+      "evidence": "No direct evidence",
+      "reasoning": "No evidence found",
+      "match_type": "none"
+    },
+    {
+      "criterion_id": "leadership_potential",
+      "criterion_name": "Leadership & Initiative",
+      "weight": 10.0,
+      "score": 7,
+      "weighted_score": 7.0,
+      "evidence": "\u2022  VP, Marketing for Access Johnson: an on-campus club for neurdivergent and disabled students",
+      "reasoning": "Transferable: Leadership through team management and mentoring",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "quantitative_aptitude",
+      "criterion_name": "Quantitative & Technical Capability",
+      "weight": 8.0,
+      "score": 4,
+      "weighted_score": 3.2,
+      "evidence": "\u2022  Performed quantitative analysis on 5-year pricing trends for 3 key business lines representing 30 | Qualtrics, SPSS, Excel, Sheets, Tableau, Monday, Airtable",
+      "reasoning": "Weak match (2/7 keywords)",
+      "match_type": "weak"
+    },
+    {
+      "criterion_id": "academic_pedigree",
+      "criterion_name": "Educational Background",
+      "weight": 5.0,
+      "score": 3,
+      "weighted_score": 1.5,
+      "evidence": "Sales Enablement MBA Intern\\",
+      "reasoning": "Weak match (1/6 keywords)",
+      "match_type": "weak"
+    },
+    {
+      "criterion_id": "industry_depth",
+      "criterion_name": "Industry Expertise",
+      "weight": 5.0,
+      "score": 6,
+      "weighted_score": 3.0,
+      "evidence": "\u2022  Leveraging domain expertise in university admissions and career consulting to define product visi",
+      "reasoning": "Moderate keyword match (1/3 keywords)",
+      "match_type": "direct"
+    }
+  ],
+  "meta_signals": [
+    {
+      "name": "trajectory",
+      "value": "ascending",
+      "evidence": "0 promotions, 5 senior titles",
+      "impact": "Strong upward trajectory indicates high potential"
+    },
+    {
+      "name": "achievement_density",
+      "value": "medium",
+      "evidence": "13 quantified achievements over 5 years (2.6/year)",
+      "impact": "Some impact visible"
+    },
+    {
+      "name": "narrative_coherence",
+      "value": "moderate",
+      "evidence": "Some narrative elements present",
+      "impact": "Somewhat coherent story"
+    }
+  ],
+  "overall_assessment": "**Total Score: 48.0/100**\n\n**Overall: Marginal candidate** - Mixed profile.\n\n**Strengths:** 2 criteria scored 8+\n- Client Engagement & Impact (10/10): Strong keyword match (9/5 keywords)\n- Business & Functional Knowledge (9/10): Strong keyword match (4/6 keywords)\n\n**Gaps:** 3 criteria scored 3 or below\n- Analytical & Problem-Solving Capability (0/10): No evidence found\n- Learning Agility & Adaptability (0/10): No evidence found\n- Educational Background (3/10): Weak match (1/6 keywords)\n\n**Note:** 1 criteria scored using transferable skills (flagged in details).\n\n**Meta-Signals:**\n- Trajectory: ascending \u2014 Strong upward trajectory indicates high potential\n- Achievement Density: medium \u2014 Some impact visible\n- Narrative Coherence: moderate \u2014 Somewhat coherent story\n",
+  "recommendation": "no",
+  "source": "scoring_v2"
+}

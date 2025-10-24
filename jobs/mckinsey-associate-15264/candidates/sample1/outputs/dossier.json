@@ -1,0 +1,27 @@
+{
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "STRONG_INTERVIEW",
+  "confidence": "medium",
+  "quick_test_status": "unknown",
+  "gestalt_summary": "Compelling combination of signals. Strong candidate worth interviewing.",
+  "top_3_strengths": [
+    "Quantified Impact",
+    "Elite Selection",
+    "Analytical Capability"
+  ],
+  "top_3_concerns": [
+    "No direct consulting experience"
+  ],
+  "elite_signal_count": 2,
+  "business_impact_count": 3,
+  "ai_detection_likelihood": "low",
+  "has_clarification_questions": false,
+  "recommended_action": "\u2713 **Priority scheduling** \u2014 Move to immediate interview scheduling",
+  "contact": {
+    "name": "ANTON BECKERMAN",
+    "email": "ab2534@cornell.edu",
+    "phone": "N/A"
+  },
+  "timestamp": "2025-10-24T02:19:56.906776+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_id": "whitney",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "STRONG_INTERVIEW",
+  "confidence": "high",
+  "quick_test_status": "unknown",
+  "gestalt_summary": "Elite consulting background with 0M+ business impact. Strong traditional candidate.",
+  "top_3_strengths": [
+    "Quantified Impact",
+    "Elite Selection",
+    "Consulting Background"
+  ],
+  "top_3_concerns": [],
+  "elite_signal_count": 3,
+  "business_impact_count": 4,
+  "ai_detection_likelihood": "low",
+  "has_clarification_questions": false,
+  "recommended_action": "\u2713 **Priority scheduling** \u2014 Move to immediate interview scheduling",
+  "contact": {
+    "name": "Whitney J. Wilson",
+    "email": "wwilson@mba2021.hbs.edu",
+    "phone": "N/A"
+  },
+  "timestamp": "2025-10-24T02:19:55.765105+00:00"
+}

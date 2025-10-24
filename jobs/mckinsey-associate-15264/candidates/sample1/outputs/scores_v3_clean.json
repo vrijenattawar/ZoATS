@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-10-23T15:29:47.032255Z",
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "total": 64.0,
+  "scores": [
+    {
+      "criterion_id": "analytical_horsepower",
+      "criterion_name": "Analytical & Problem-Solving Capability",
+      "weight": 20.0,
+      "score": 8.0,
+      "weighted_score": 16.0,
+      "evidence": "Quantitative work with outcomes ($500.0M growth, $90.0M revenue, $15.0M cost_savings)",
+      "reasoning": "Data-driven decision making with impact [Elite boost: 7.0\u21928.0 from Selected from 4.0% pool, Elite military selection]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "client_impact",
+      "criterion_name": "Client Engagement & Impact",
+      "weight": 15.0,
+      "score": 6,
+      "weighted_score": 9.0,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    },
+    {
+      "criterion_id": "business_acumen",
+      "criterion_name": "Business & Functional Knowledge",
+      "weight": 15.0,
+      "score": 6,
+      "weighted_score": 9.0,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    },
+    {
+      "criterion_id": "communication",
+      "criterion_name": "Communication & Synthesis",
+      "weight": 12.0,
+      "score": 6,
+      "weighted_score": 7.2,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    },
+    {
+      "criterion_id": "learning_velocity",
+      "criterion_name": "Learning Agility & Adaptability",
+      "weight": 10.0,
+      "score": 6,
+      "weighted_score": 6.0,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    },
+    {
+      "criterion_id": "leadership_potential",
+      "criterion_name": "Leadership & Initiative",
+      "weight": 10.0,
+      "score": 6,
+      "weighted_score": 6.0,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    },
+    {
+      "criterion_id": "quantitative_aptitude",
+      "criterion_name": "Quantitative & Technical Capability",
+      "weight": 8.0,
+      "score": 6,
+      "weighted_score": 4.8,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    },
+    {
+      "criterion_id": "academic_pedigree",
+      "criterion_name": "Educational Background",
+      "weight": 5.0,
+      "score": 6,
+      "weighted_score": 3.0,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    },
+    {
+      "criterion_id": "industry_depth",
+      "criterion_name": "Industry Expertise",
+      "weight": 5.0,
+      "score": 6,
+      "weighted_score": 3.0,
+      "evidence": "Analytical capability",
+      "reasoning": "Some relevant background",
+      "match_type": "potential"
+    }
+  ],
+  "meta_signals": {
+    "business_impacts": [
+      {
+        "type": "growth",
+        "value": "$500.0M",
+        "confidence": 0.75
+      },
+      {
+        "type": "revenue",
+        "value": "$90.0M",
+        "confidence": 0.7
+      },
+      {
+        "type": "cost_savings",
+        "value": "$15.0M",
+        "confidence": 0.85
+      }
+    ],
+    "elite_signals": [
+      {
+        "type": "acceptance_rate",
+        "detail": "Selected from 4.0% pool",
+        "boost": 1.3
+      },
+      {
+        "type": "elite_program",
+        "detail": "Elite military selection",
+        "boost": 1.2
+      }
+    ],
+    "capability_proxies": {
+      "analytical_depth": 0.9,
+      "consulting_skills": 0.7714285714285714
+    },
+    "ai_detection": {
+      "likelihood": "low",
+      "confidence": 0.3,
+      "flags": [],
+      "scores": {
+        "burstiness": 0.72,
+        "generic_phrase_count": 0,
+        "specificity": 0.99
+      }
+    }
+  },
+  "red_flags": [],
+  "overall_impression": "Moderate candidate. Selected from 4.0% pool, Elite military selection",
+  "recommendation": "pass",
+  "source": "scoring_v3_clean"
+}

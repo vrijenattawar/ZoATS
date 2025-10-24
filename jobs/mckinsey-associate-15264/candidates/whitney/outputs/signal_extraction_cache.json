@@ -1,0 +1,25 @@
+{
+  "business_impact": [
+    {"value": 80, "type": "revenue", "context": "$80M/yr revenue increase recommendation at Amazon", "confidence": 0.9},
+    {"value": 30, "type": "opportunity", "context": "Created $30M/yr market opportunity at Amazon", "confidence": 0.9},
+    {"value": 100, "type": "pipeline", "context": "Identified $100M pipeline across 8 federal agencies at Deloitte", "confidence": 0.85},
+    {"value": 7.3, "type": "revenue", "context": "$7.3M awarded work at Deloitte", "confidence": 0.95}
+  ],
+  "elite_signals": [
+    {"type": "top_tier_mba", "detail": "Harvard Business School MBA", "boost_factor": 1.3},
+    {"type": "elite_company", "detail": "Deloitte Consulting", "boost_factor": 1.2},
+    {"type": "elite_company", "detail": "Amazon", "boost_factor": 1.1}
+  ],
+  "consulting_experience": {
+    "has_direct": true,
+    "years": 4,
+    "firms": ["Deloitte Consulting", "GE Affiliate (Strategy Consultant)"],
+    "confidence": 0.95
+  },
+  "role_match": {
+    "fit_score": 0.92,
+    "reasons": ["4 years MBB-tier consulting (Deloitte)", "HBS MBA", "Led consulting teams", "Data-driven strategy work", "Quantitative analysis skills", "$80M+ business impact"],
+    "concerns": []
+  },
+  "red_flags": []
+}

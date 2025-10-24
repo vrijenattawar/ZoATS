@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-23T03:03:01.559861Z",
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "total": 51.1,
+  "scores": [
+    {
+      "criterion_id": "analytical_horsepower",
+      "criterion_name": "Analytical & Problem-Solving Capability",
+      "weight": 20.0,
+      "score": 7,
+      "weighted_score": 14.0,
+      "evidence": "Quantitative work with outcomes",
+      "reasoning": "Data analysis with measurable impact",
+      "match_type": "transferable",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "client_impact",
+      "criterion_name": "Client Engagement & Impact",
+      "weight": 15.0,
+      "score": 0,
+      "weighted_score": 0.0,
+      "evidence": "No direct evidence",
+      "reasoning": "Limited evidence in resume",
+      "match_type": "none",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "business_acumen",
+      "criterion_name": "Business & Functional Knowledge",
+      "weight": 15.0,
+      "score": 7,
+      "weighted_score": 10.5,
+      "evidence": "Consulting + analytics",
+      "reasoning": "Consulting background with analytical capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "communication",
+      "criterion_name": "Communication & Synthesis",
+      "weight": 12.0,
+      "score": 0,
+      "weighted_score": 0.0,
+      "evidence": "No direct evidence",
+      "reasoning": "Limited evidence in resume",
+      "match_type": "none",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "learning_velocity",
+      "criterion_name": "Learning Agility & Adaptability",
+      "weight": 10.0,
+      "score": 7,
+      "weighted_score": 7.0,
+      "evidence": "Consulting + analytics",
+      "reasoning": "Consulting background with analytical capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "leadership_potential",
+      "criterion_name": "Leadership & Initiative",
+      "weight": 10.0,
+      "score": 7,
+      "weighted_score": 7.0,
+      "evidence": "Consulting + analytics",
+      "reasoning": "Consulting background with analytical capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "quantitative_aptitude",
+      "criterion_name": "Quantitative & Technical Capability",
+      "weight": 8.0,
+      "score": 7,
+      "weighted_score": 5.6,
+      "evidence": "Consulting + analytics",
+      "reasoning": "Consulting background with analytical capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "academic_pedigree",
+      "criterion_name": "Educational Background",
+      "weight": 5.0,
+      "score": 7,
+      "weighted_score": 3.5,
+      "evidence": "Consulting + analytics",
+      "reasoning": "Consulting background with analytical capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "industry_depth",
+      "criterion_name": "Industry Expertise",
+      "weight": 5.0,
+      "score": 7,
+      "weighted_score": 3.5,
+      "evidence": "Consulting + analytics",
+      "reasoning": "Consulting background with analytical capability",
+      "match_type": "potential",
+      "transferable_note": ""
+    }
+  ],
+  "meta_signals": {
+    "trajectory": "moderate",
+    "trajectory_note": "Moderate progression",
+    "achievement_density": "moderate",
+    "achievement_note": "Some outcomes visible",
+    "narrative_coherence": "strong",
+    "narrative_note": "Clear career story",
+    "learning_velocity": "fast",
+    "learning_note": "Rapid domain acquisition evident"
+  },
+  "red_flags": [],
+  "overall_impression": "Moderate candidate with some transferable skills.",
+  "recommendation": "review",
+  "source": "scoring_v3_semantic"
+}

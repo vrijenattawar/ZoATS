@@ -1,0 +1,132 @@
+{
+  "role_type": "software-engineer",
+  "description": "Software development, system design, technical problem-solving",
+  "default_criteria": [
+    {
+      "id": "technical_depth",
+      "name": "Technical Depth & Expertise",
+      "description": "Mastery of programming languages, frameworks, system design",
+      "weight": 25,
+      "tier": "must",
+      "evaluation_guidance": {
+        "9-10": "Expert in 3+ languages, contributed to open source, deep system architecture experience",
+        "7-8": "Strong in 2+ languages, production system ownership",
+        "5-6": "Proficient in 1-2 languages, feature-level development",
+        "3-4": "Junior-level coding, limited scope",
+        "0-2": "No production coding experience"
+      },
+      "keywords": ["programming", "software development", "coding", "system design", "architecture"]
+    },
+    {
+      "id": "problem_solving_technical",
+      "name": "Technical Problem-Solving",
+      "description": "Debugging complex issues, optimizing performance, algorithmic thinking",
+      "weight": 20,
+      "tier": "must",
+      "evaluation_guidance": {
+        "9-10": "Solved critical production issues, performance optimization, algorithmic contributions",
+        "7-8": "Regular debugging, system improvements",
+        "5-6": "Feature-level problem-solving",
+        "3-4": "Limited technical challenges",
+        "0-2": "No problem-solving evidence"
+      },
+      "keywords": ["debugging", "optimization", "algorithms", "problem-solving", "performance"]
+    },
+    {
+      "id": "system_design",
+      "name": "System Design & Architecture",
+      "description": "Designing scalable, maintainable systems",
+      "weight": 15,
+      "tier": "must",
+      "evaluation_guidance": {
+        "9-10": "Designed multi-service systems, led architecture decisions",
+        "7-8": "Contributed to system design, owned service architecture",
+        "5-6": "Participated in design discussions",
+        "3-4": "Implementation-focused, no design work",
+        "0-2": "No system design experience"
+      },
+      "keywords": ["architecture", "system design", "scalability", "microservices", "distributed systems"]
+    },
+    {
+      "id": "collaboration",
+      "name": "Collaboration & Code Quality",
+      "description": "Code reviews, documentation, team practices",
+      "weight": 12,
+      "tier": "should",
+      "evaluation_guidance": {
+        "9-10": "Led code review culture, mentored engineers, excellent documentation",
+        "7-8": "Active reviewer, good documentation practices",
+        "5-6": "Participates in reviews, basic documentation",
+        "3-4": "Limited collaboration",
+        "0-2": "No evidence"
+      },
+      "keywords": ["code review", "documentation", "collaboration", "best practices", "mentoring"]
+    },
+    {
+      "id": "ownership",
+      "name": "Product Ownership & Impact",
+      "description": "End-to-end ownership, user impact, business value",
+      "weight": 10,
+      "tier": "should",
+      "evaluation_guidance": {
+        "9-10": "Owned product features, clear user/business impact metrics",
+        "7-8": "Led features with measurable outcomes",
+        "5-6": "Contributed to features, some impact visibility",
+        "3-4": "Task-focused, limited ownership",
+        "0-2": "No ownership evidence"
+      },
+      "keywords": ["ownership", "product", "impact", "user", "business value"]
+    },
+    {
+      "id": "tech_stack",
+      "name": "Relevant Tech Stack Experience",
+      "description": "Experience with required technologies",
+      "weight": 8,
+      "tier": "should",
+      "evaluation_guidance": {
+        "9-10": "Deep experience in all required technologies",
+        "7-8": "Experience in most required technologies",
+        "5-6": "Experience in some required technologies",
+        "3-4": "Limited overlap with required stack",
+        "0-2": "No relevant tech stack experience"
+      },
+      "keywords": ["technologies", "frameworks", "tools", "stack"]
+    },
+    {
+      "id": "learning_technical",
+      "name": "Technical Learning & Growth",
+      "description": "Picking up new technologies, staying current",
+      "weight": 5,
+      "tier": "nice",
+      "evaluation_guidance": {
+        "9-10": "Consistently adopts new tech, contributes to community",
+        "7-8": "Regular skill expansion visible in career",
+        "5-6": "Some new technology adoption",
+        "3-4": "Mostly uses familiar technologies",
+        "0-2": "Stagnant skillset"
+      },
+      "keywords": ["learning", "new technologies", "self-taught", "hackathons", "side projects"]
+    },
+    {
+      "id": "company_quality",
+      "name": "Company/Team Quality",
+      "description": "Caliber of previous teams and companies",
+      "weight": 5,
+      "tier": "nice",
+      "evaluation_guidance": {
+        "9-10": "FAANG or top-tier startup with high engineering bar",
+        "7-8": "Well-known tech company or strong startup",
+        "5-6": "Mid-tier tech company",
+        "3-4": "Non-tech company or weak startup",
+        "0-2": "No notable companies"
+      },
+      "keywords": ["FAANG", "startup", "tech company"]
+    }
+  ],
+  "meta_signals": {
+    "trajectory": "Career progression (IC levels, scope growth, leadership)",
+    "achievement_density": "Impact metrics, system ownership, technical wins",
+    "narrative_coherence": "Logical career moves, skill progression",
+    "learning_velocity": "Speed of technology/domain acquisition"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "decision": "STRONG_INTERVIEW",
+  "confidence": "high",
+  "gestalt": {
+    "compelling_strengths": [
+      "Former McKinsey employee - direct experience at target firm"
+    ],
+    "gaps": [],
+    "unique_bundle": "Boomerang candidate with proven fit",
+    "why_interview_worthy": "Boomerang candidate with proven fit"
+  },
+  "clarification": null,
+  "interview_guidance": {
+    "focus_areas": [
+      "Understand scale and scope of past work"
+    ],
+    "risks": [],
+    "strengths_to_validate": [
+      "Former McKinsey employee - direct experience at target firm"
+    ]
+  },
+  "signals": {
+    "business_impact": [
+      {
+        "value": "$4M",
+        "type": "revenue"
+      },
+      {
+        "value": "$1M",
+        "type": "revenue"
+      },
+      {
+        "value": "$0M",
+        "type": "revenue"
+      }
+    ],
+    "elite_markers": [
+      "Cornell degree",
+      "Worked at Mckinsey"
+    ],
+    "capabilities": {
+      "analytical_depth": 0.7222222222222222,
+      "consulting_skills": 0.8428571428571427
+    },
+    "ai_detection": {
+      "likelihood": "low",
+      "confidence": 0.3,
+      "flags": [],
+      "scores": {
+        "burstiness": 1.45,
+        "generic_phrase_count": 0,
+        "specificity": 1.0
+      }
+    }
+  },
+  "timestamp": "2025-10-23T16:30:25.434904Z",
+  "source": "gestalt_v1"
+}

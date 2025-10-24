@@ -1,0 +1,23 @@
+{
+  "candidate_id": "marla",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "PASS",
+  "confidence": "high",
+  "quick_test_status": "unknown",
+  "gestalt_summary": "Not a fit: Librarian/education specialist role - fundamental mismatch for management consulting position",
+  "top_3_strengths": [],
+  "top_3_concerns": [
+    "Librarian/education specialist role - fundamental mismatch for management consulting position"
+  ],
+  "elite_signal_count": 1,
+  "business_impact_count": 0,
+  "ai_detection_likelihood": "low",
+  "has_clarification_questions": false,
+  "recommended_action": "\u2717 **No interview** \u2014 Does not meet minimum requirements",
+  "contact": {
+    "name": "Mar\u00eda Jos\u00e9 Guerrero",
+    "email": "majoguerrerod@gmail.com",
+    "phone": "N/A"
+  },
+  "timestamp": "2025-10-24T02:19:55.164728+00:00"
+}

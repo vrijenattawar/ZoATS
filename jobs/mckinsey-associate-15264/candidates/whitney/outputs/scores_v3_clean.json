@@ -1,0 +1,157 @@
+{
+  "timestamp": "2025-10-23T15:29:46.940740Z",
+  "candidate_id": "whitney",
+  "job_id": "mckinsey-associate-15264",
+  "total": 82.0,
+  "scores": [
+    {
+      "criterion_id": "analytical_horsepower",
+      "criterion_name": "Analytical & Problem-Solving Capability",
+      "weight": 20.0,
+      "score": 9.0,
+      "weighted_score": 18.0,
+      "evidence": "Consulting + quantitative + outcomes ($150.0M growth, $80.0M revenue, $12.0M revenue)",
+      "reasoning": "Strong analytical capability with measurable business impact [Elite boost: 8.0\u21929.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "direct"
+    },
+    {
+      "criterion_id": "client_impact",
+      "criterion_name": "Client Engagement & Impact",
+      "weight": 15.0,
+      "score": 8.0,
+      "weighted_score": 12.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "business_acumen",
+      "criterion_name": "Business & Functional Knowledge",
+      "weight": 15.0,
+      "score": 8.0,
+      "weighted_score": 12.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "communication",
+      "criterion_name": "Communication & Synthesis",
+      "weight": 12.0,
+      "score": 8.0,
+      "weighted_score": 9.6,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "learning_velocity",
+      "criterion_name": "Learning Agility & Adaptability",
+      "weight": 10.0,
+      "score": 8.0,
+      "weighted_score": 8.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "leadership_potential",
+      "criterion_name": "Leadership & Initiative",
+      "weight": 10.0,
+      "score": 8.0,
+      "weighted_score": 8.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "quantitative_aptitude",
+      "criterion_name": "Quantitative & Technical Capability",
+      "weight": 8.0,
+      "score": 8.0,
+      "weighted_score": 6.4,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "academic_pedigree",
+      "criterion_name": "Educational Background",
+      "weight": 5.0,
+      "score": 8.0,
+      "weighted_score": 4.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    },
+    {
+      "criterion_id": "industry_depth",
+      "criterion_name": "Industry Expertise",
+      "weight": 5.0,
+      "score": 8.0,
+      "weighted_score": 4.0,
+      "evidence": "Consulting-relevant skills",
+      "reasoning": "Transferable capabilities [Elite boost: 7.0\u21928.0 from Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft]",
+      "match_type": "transferable"
+    }
+  ],
+  "meta_signals": {
+    "business_impacts": [
+      {
+        "type": "growth",
+        "value": "$150.0M",
+        "confidence": 0.75
+      },
+      {
+        "type": "revenue",
+        "value": "$80.0M",
+        "confidence": 0.7
+      },
+      {
+        "type": "revenue",
+        "value": "$12.0M",
+        "confidence": 0.7
+      }
+    ],
+    "elite_signals": [
+      {
+        "type": "elite_company",
+        "detail": "Worked at Deloitte Consulting",
+        "boost": 1.2
+      },
+      {
+        "type": "elite_company",
+        "detail": "Worked at Google",
+        "boost": 1.15
+      },
+      {
+        "type": "elite_company",
+        "detail": "Worked at Microsoft",
+        "boost": 1.1
+      },
+      {
+        "type": "elite_company",
+        "detail": "Worked at Amazon",
+        "boost": 1.1
+      }
+    ],
+    "capability_proxies": {
+      "analytical_depth": 0.9,
+      "consulting_skills": 0.9142857142857143
+    },
+    "ai_detection": {
+      "likelihood": "low",
+      "confidence": 0.3,
+      "flags": [],
+      "scores": {
+        "burstiness": 2.61,
+        "generic_phrase_count": 0,
+        "specificity": 1.0
+      }
+    }
+  },
+  "red_flags": [],
+  "overall_impression": "Strong candidate. Worked at Deloitte Consulting, Worked at Google, Worked at Microsoft",
+  "recommendation": "strong_pass",
+  "source": "scoring_v3_clean"
+}

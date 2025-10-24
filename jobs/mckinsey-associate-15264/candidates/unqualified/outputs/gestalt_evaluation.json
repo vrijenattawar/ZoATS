@@ -1,0 +1,36 @@
+{
+  "candidate_id": "unqualified",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "PASS",
+  "confidence": "high",
+  "key_strengths": [],
+  "concerns": [
+    {
+      "issue": "No direct consulting experience",
+      "severity": "moderate",
+      "can_mitigate": true
+    },
+    {
+      "issue": "Limited evidence of business outcomes",
+      "severity": "moderate",
+      "can_mitigate": true
+    },
+    {
+      "issue": "Unclear analytical depth",
+      "severity": "major",
+      "can_mitigate": true
+    }
+  ],
+  "overall_narrative": "Insufficient evidence of consulting-relevant capabilities for this role.",
+  "interview_focus": [],
+  "clarification_questions": null,
+  "ai_detection": {
+    "likelihood": "low",
+    "confidence": 0.7,
+    "flags": [],
+    "reasoning": "Detected 0 generic phrases. Lacks specific metrics."
+  },
+  "elite_signals": [],
+  "business_impact": [],
+  "timestamp": "2025-10-24T02:14:26.690812Z"
+}

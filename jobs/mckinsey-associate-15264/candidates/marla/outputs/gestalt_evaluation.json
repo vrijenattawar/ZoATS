@@ -1,0 +1,32 @@
+{
+  "candidate_id": "marla",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "PASS",
+  "confidence": "high",
+  "key_strengths": [],
+  "concerns": [
+    {
+      "issue": "Librarian/education specialist role - fundamental mismatch for management consulting position",
+      "severity": "disqualifying",
+      "can_mitigate": false
+    }
+  ],
+  "overall_narrative": "Not a fit: Librarian/education specialist role - fundamental mismatch for management consulting position",
+  "interview_focus": [],
+  "clarification_questions": null,
+  "ai_detection": {
+    "likelihood": "low",
+    "confidence": 0.7,
+    "flags": [],
+    "reasoning": "Detected 1 generic phrases. Lacks specific metrics."
+  },
+  "elite_signals": [
+    {
+      "type": "top_tier_institution",
+      "detail": "Harvard Graduate School of Education Master's",
+      "boost_factor": 1.25
+    }
+  ],
+  "business_impact": [],
+  "timestamp": "2025-10-24T02:19:55.099229Z"
+}

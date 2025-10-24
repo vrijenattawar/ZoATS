@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-24T02:19:56.687784Z",
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "hard_disqualifiers": [],
+  "hard_disqualifier_status": "pass",
+  "soft_disqualifiers": [
+    {
+      "flag": "possible_declining_trajectory",
+      "severity": "medium",
+      "detail": "Senior titles appear early but not later - verify progression"
+    }
+  ],
+  "red_flags": [],
+  "early_score_estimate": 70,
+  "confidence": "medium",
+  "recommendation": "pass",
+  "reasoning": "No major concerns in quick test",
+  "source": "quick_test_v2"
+}

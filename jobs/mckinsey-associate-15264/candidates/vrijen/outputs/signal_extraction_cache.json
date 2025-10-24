@@ -1,0 +1,23 @@
+{
+  "business_impact": [
+    {"value": 4, "type": "revenue", "context": "identifying $4M in low-lift up-sell and cross-sell opportunities at McKinsey", "confidence": 0.95},
+    {"value": 0.65, "type": "revenue", "context": "Generated $650K+ in annual B2C revenue at The Keys Admissions", "confidence": 0.9},
+    {"value": 0.425, "type": "revenue", "context": "B2C revenue of $425K+ at The Academy", "confidence": 0.9}
+  ],
+  "elite_signals": [
+    {"type": "elite_company", "detail": "McKinsey & Company", "boost_factor": 1.4},
+    {"type": "top_tier_mba", "detail": "Cornell MBA", "boost_factor": 1.15}
+  ],
+  "consulting_experience": {
+    "has_direct": true,
+    "years": 1,
+    "firms": ["McKinsey & Company"],
+    "confidence": 0.95
+  },
+  "role_match": {
+    "fit_score": 0.95,
+    "reasons": ["Former McKinsey employee applying to McKinsey", "Direct consulting experience", "Quantitative analysis skills demonstrated", "Top-tier MBA"],
+    "concerns": []
+  },
+  "red_flags": []
+}

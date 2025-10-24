@@ -1,0 +1,179 @@
+{
+  "job": "mckinsey-associate-15264",
+  "stages": {},
+  "candidates_processed": 5,
+  "candidate_results": [
+    {
+      "candidate_id": "marla",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job mckinsey-associate-15264 --candidate marla",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:54,442Z INFO Processing: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/marla/raw/resume.pdf\n2025-10-24 02:19:54,443Z INFO File size: 85132 bytes\n2025-10-24 02:19:54,443Z INFO Extracting PDF: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/marla/raw/resume.pdf\n2025-10-24 02:19:54,508Z INFO [PDF] Trying pdfminer.six for resume.pdf\n2025-10-24 02:19:54,885Z INFO [PDF] \u2713 pdfminer.six extracted 5954 chars\n2025-10-24 02:19:54,885Z INFO Text sample: Mar\u00eda Jos\u00e9 Guerrero  Cambridge, Massachusetts, 02138  Contact:  (857) 242-9324  majoguerrerod@gmail.com  majo_guerrero@harvard.edu  LinkedIn: https://www.linkedin.com/in/majoguerrerodg/  Portfolio: ht...\n2025-10-24 02:19:54,886Z INFO Extracted fields: {'name': 'Mar\u00eda Jos\u00e9 Guerrero', 'email': 'majoguerrerod@gmail.com', 'years_experience': 3}\n2025-10-24 02:19:54,886Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/marla/parsed/text.md (5942 chars)\n2025-10-24 02:19:54,886Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/marla/parsed/fields.json\n2025-10-24 02:19:54,886Z INFO \u2713 Parsing complete\n",
+          "success": true
+        },
+        "quick_test": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/quick_test/main.py --job mckinsey-associate-15264 --candidate marla",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/quick_test/main.py:274: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  timestamp=datetime.utcnow().isoformat() + \"Z\",\n2025-10-24 02:19:54,980Z INFO \u2713 Wrote quick test \u2192 /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/marla/outputs/quick_test.json\n2025-10-24 02:19:54,980Z INFO   Recommendation: pass (No major concerns in quick test)\n",
+          "success": true
+        },
+        "scorer": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/scoring/main_gestalt.py --job mckinsey-associate-15264 --candidate marla",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:55,057Z INFO Evaluating marla for mckinsey-associate-15264...\n2025-10-24 02:19:55,098Z INFO Using cached LLM extraction from jobs/mckinsey-associate-15264/candidates/marla/outputs/signal_extraction_cache.json\n2025-10-24 02:19:55,099Z INFO \u2713 Wrote evaluation \u2192 jobs/mckinsey-associate-15264/candidates/marla/outputs/gestalt_evaluation.json\n2025-10-24 02:19:55,099Z INFO   Decision: PASS (confidence: high)\n2025-10-24 02:19:55,099Z INFO   Not a fit: Librarian/education specialist role - fundamental mismatch for management consulting position\n",
+          "success": true
+        },
+        "dossier": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/dossier/main.py --job mckinsey-associate-15264 --candidate marla",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:55,164Z INFO Generating dossier for marla (decision: PASS)\n2025-10-24 02:19:55,165Z INFO \u2713 Dossier written to /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/marla/outputs\n2025-10-24 02:19:55,165Z INFO   - dossier.md (975 bytes)\n2025-10-24 02:19:55,165Z INFO   - dossier.json (775 bytes)\n",
+          "success": true
+        }
+      },
+      "quick_test_status": "unknown",
+      "decision": "PASS",
+      "status": "complete"
+    },
+    {
+      "candidate_id": "whitney",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job mckinsey-associate-15264 --candidate whitney",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:55,229Z INFO Processing: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/whitney/raw/resume.pdf\n2025-10-24 02:19:55,229Z INFO File size: 479435 bytes\n2025-10-24 02:19:55,229Z INFO Extracting PDF: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/whitney/raw/resume.pdf\n2025-10-24 02:19:55,294Z INFO [PDF] Trying pdfminer.six for resume.pdf\n2025-10-24 02:19:55,453Z INFO [PDF] \u2713 pdfminer.six extracted 5676 chars\n2025-10-24 02:19:55,453Z INFO Text sample: Whitney J. Wilson  8 Soldiers Field Park, Apt 8B; Boston, MA 02163; wwilson@mba2021.hbs.edu; (541) 808-1233   education  2019-2021  HARVARD BUSINESS SCHOOL                             BOSTON, MA   MBA...\n2025-10-24 02:19:55,454Z INFO Extracted fields: {'name': 'Whitney J. Wilson', 'email': 'wwilson@mba2021.hbs.edu', 'years_experience': 15}\n2025-10-24 02:19:55,454Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/whitney/parsed/text.md (5558 chars)\n2025-10-24 02:19:55,454Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/whitney/parsed/fields.json\n2025-10-24 02:19:55,454Z INFO \u2713 Parsing complete\n",
+          "success": true
+        },
+        "quick_test": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/quick_test/main.py --job mckinsey-associate-15264 --candidate whitney",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/quick_test/main.py:274: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  timestamp=datetime.utcnow().isoformat() + \"Z\",\n2025-10-24 02:19:55,547Z INFO \u2713 Wrote quick test \u2192 /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/whitney/outputs/quick_test.json\n2025-10-24 02:19:55,547Z INFO   Recommendation: pass (Strong early signals (estimated score: 85))\n",
+          "success": true
+        },
+        "scorer": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/scoring/main_gestalt.py --job mckinsey-associate-15264 --candidate whitney",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:55,622Z INFO Evaluating whitney for mckinsey-associate-15264...\n2025-10-24 02:19:55,662Z INFO Using cached LLM extraction from jobs/mckinsey-associate-15264/candidates/whitney/outputs/signal_extraction_cache.json\n2025-10-24 02:19:55,699Z INFO \u2713 Wrote evaluation \u2192 jobs/mckinsey-associate-15264/candidates/whitney/outputs/gestalt_evaluation.json\n2025-10-24 02:19:55,700Z INFO   Decision: STRONG_INTERVIEW (confidence: high)\n2025-10-24 02:19:55,700Z INFO   Elite consulting background with 0M+ business impact. Strong traditional candidate.\n",
+          "success": true
+        },
+        "dossier": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/dossier/main.py --job mckinsey-associate-15264 --candidate whitney",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:55,764Z INFO Generating dossier for whitney (decision: STRONG_INTERVIEW)\n2025-10-24 02:19:55,765Z INFO \u2713 Dossier written to /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/whitney/outputs\n2025-10-24 02:19:55,765Z INFO   - dossier.md (1772 bytes)\n2025-10-24 02:19:55,765Z INFO   - dossier.json (735 bytes)\n",
+          "success": true
+        }
+      },
+      "quick_test_status": "unknown",
+      "decision": "STRONG_INTERVIEW",
+      "status": "complete"
+    },
+    {
+      "candidate_id": "vrijen",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job mckinsey-associate-15264 --candidate vrijen",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:55,829Z INFO Processing: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/vrijen/raw/resume.pdf\n2025-10-24 02:19:55,829Z INFO File size: 185809 bytes\n2025-10-24 02:19:55,829Z INFO Extracting PDF: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/vrijen/raw/resume.pdf\n2025-10-24 02:19:55,894Z INFO [PDF] Trying pdfminer.six for resume.pdf\n2025-10-24 02:19:56,038Z INFO [PDF] \u2713 pdfminer.six extracted 3609 chars\n2025-10-24 02:19:56,038Z INFO Text sample: VRIJEN S. ATTAWAR  vsa6@cornell.edu | 857-869-3264 | STEM OPT Eligible | https://bit.ly/vsaLinkedIn    Education  CORNELL SC JOHNSON COLLEGE OF BUSINESS   Ithaca, NY   Master of Business Administratio...\n2025-10-24 02:19:56,039Z INFO Extracted fields: {'name': 'VRIJEN S. ATTAWAR', 'email': 'vsa6@cornell.edu', 'years_experience': 5}\n2025-10-24 02:19:56,039Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/vrijen/parsed/text.md (3603 chars)\n2025-10-24 02:19:56,039Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/vrijen/parsed/fields.json\n2025-10-24 02:19:56,039Z INFO \u2713 Parsing complete\n",
+          "success": true
+        },
+        "quick_test": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/quick_test/main.py --job mckinsey-associate-15264 --candidate vrijen",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/quick_test/main.py:274: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  timestamp=datetime.utcnow().isoformat() + \"Z\",\n2025-10-24 02:19:56,131Z INFO \u2713 Wrote quick test \u2192 /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/vrijen/outputs/quick_test.json\n2025-10-24 02:19:56,131Z INFO   Recommendation: pass (Strong early signals (estimated score: 85))\n",
+          "success": true
+        },
+        "scorer": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/scoring/main_gestalt.py --job mckinsey-associate-15264 --candidate vrijen",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:56,205Z INFO Evaluating vrijen for mckinsey-associate-15264...\n2025-10-24 02:19:56,245Z INFO Using cached LLM extraction from jobs/mckinsey-associate-15264/candidates/vrijen/outputs/signal_extraction_cache.json\n2025-10-24 02:19:56,283Z INFO \u2713 Wrote evaluation \u2192 jobs/mckinsey-associate-15264/candidates/vrijen/outputs/gestalt_evaluation.json\n2025-10-24 02:19:56,283Z INFO   Decision: STRONG_INTERVIEW (confidence: high)\n2025-10-24 02:19:56,283Z INFO   Former employee at target company. Direct experience makes this a strong fit worth immediate conversation.\n",
+          "success": true
+        },
+        "dossier": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/dossier/main.py --job mckinsey-associate-15264 --candidate vrijen",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:56,349Z INFO Generating dossier for vrijen (decision: STRONG_INTERVIEW)\n2025-10-24 02:19:56,349Z INFO \u2713 Dossier written to /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/vrijen/outputs\n2025-10-24 02:19:56,349Z INFO   - dossier.md (1655 bytes)\n2025-10-24 02:19:56,349Z INFO   - dossier.json (750 bytes)\n",
+          "success": true
+        }
+      },
+      "quick_test_status": "unknown",
+      "decision": "STRONG_INTERVIEW",
+      "status": "complete"
+    },
+    {
+      "candidate_id": "sample1",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job mckinsey-associate-15264 --candidate sample1",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:56,413Z INFO Processing: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/sample1/raw/resume.pdf\n2025-10-24 02:19:56,413Z INFO File size: 103914 bytes\n2025-10-24 02:19:56,413Z INFO Extracting PDF: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/sample1/raw/resume.pdf\n2025-10-24 02:19:56,478Z INFO [PDF] Trying pdfminer.six for resume.pdf\n2025-10-24 02:19:56,593Z INFO [PDF] \u2713 pdfminer.six extracted 3812 chars\n2025-10-24 02:19:56,593Z INFO Text sample: ANTON BECKERMAN  111 S. Quarry St. Apartment A12, Ithaca, NY 14850  (607) 379-5230  ab2534@cornell.edu   Education   CORNELL SC JOHNSON COLLEGE OF BUSINESS  Master of Business Administration, May 2016...\n2025-10-24 02:19:56,594Z INFO Extracted fields: {'name': 'ANTON BECKERMAN', 'email': 'ab2534@cornell.edu', 'years_experience': 10}\n2025-10-24 02:19:56,594Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/sample1/parsed/text.md (3736 chars)\n2025-10-24 02:19:56,594Z INFO \u2713 Wrote: /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/sample1/parsed/fields.json\n2025-10-24 02:19:56,595Z INFO \u2713 Parsing complete\n",
+          "success": true
+        },
+        "quick_test": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/quick_test/main.py --job mckinsey-associate-15264 --candidate sample1",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "/home/workspace/ZoATS/workers/quick_test/main.py:274: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  timestamp=datetime.utcnow().isoformat() + \"Z\",\n2025-10-24 02:19:56,688Z INFO \u2713 Wrote quick test \u2192 /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/sample1/outputs/quick_test.json\n2025-10-24 02:19:56,688Z INFO   Recommendation: pass (No major concerns in quick test)\n",
+          "success": true
+        },
+        "scorer": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/scoring/main_gestalt.py --job mckinsey-associate-15264 --candidate sample1",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:56,763Z INFO Evaluating sample1 for mckinsey-associate-15264...\n2025-10-24 02:19:56,802Z INFO Using cached LLM extraction from jobs/mckinsey-associate-15264/candidates/sample1/outputs/signal_extraction_cache.json\n2025-10-24 02:19:56,841Z INFO \u2713 Wrote evaluation \u2192 jobs/mckinsey-associate-15264/candidates/sample1/outputs/gestalt_evaluation.json\n2025-10-24 02:19:56,841Z INFO   Decision: STRONG_INTERVIEW (confidence: medium)\n2025-10-24 02:19:56,841Z INFO   Compelling combination of signals. Strong candidate worth interviewing.\n",
+          "success": true
+        },
+        "dossier": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/dossier/main.py --job mckinsey-associate-15264 --candidate sample1",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:56,906Z INFO Generating dossier for sample1 (decision: STRONG_INTERVIEW)\n2025-10-24 02:19:56,907Z INFO \u2713 Dossier written to /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/sample1/outputs\n2025-10-24 02:19:56,907Z INFO   - dossier.md (1739 bytes)\n2025-10-24 02:19:56,907Z INFO   - dossier.json (751 bytes)\n",
+          "success": true
+        }
+      },
+      "quick_test_status": "unknown",
+      "decision": "STRONG_INTERVIEW",
+      "status": "complete"
+    },
+    {
+      "candidate_id": "unqualified",
+      "steps": {
+        "parser": {
+          "cmd": "/usr/local/bin/python3 /home/workspace/ZoATS/workers/parser/main.py --job mckinsey-associate-15264 --candidate unqualified",
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "2025-10-24 02:19:56,971Z ERROR \u2717 No resume file found in /home/workspace/ZoATS/jobs/mckinsey-associate-15264/candidates/unqualified/raw\n",
+          "success": false
+        }
+      },
+      "status": "parser_failed"
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "complete": 4,
+    "partial": 0,
+    "clarification_pending": 0,
+    "failed": 1,
+    "decision_breakdown": {
+      "STRONG_INTERVIEW": 3,
+      "INTERVIEW": 0,
+      "MAYBE": 0,
+      "PASS": 1,
+      "BACKUP_LIST": 0,
+      "UNKNOWN": 1
+    }
+  }
+}

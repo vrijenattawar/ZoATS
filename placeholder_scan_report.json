@@ -1,0 +1,482 @@
+{
+  "timestamp": "/home/workspace",
+  "total_issues": 59,
+  "by_severity": {
+    "high": [
+      {
+        "file": "placeholder_scan_report.json",
+        "line": 403,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "\"pattern\": \"fake_data\","
+      },
+      {
+        "file": "placeholder_scan_report.json",
+        "line": 411,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "\"pattern\": \"fake_data\","
+      },
+      {
+        "file": "placeholder_scan_report.json",
+        "line": 419,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "\"pattern\": \"fake_data\","
+      },
+      {
+        "file": "placeholder_scan_report.json",
+        "line": 414,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "\"context\": \"quick_test_data = json.loads(quick_test_path.read_text())\""
+      },
+      {
+        "file": "placeholder_scan_report.json",
+        "line": 422,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "\"context\": \"quick_test_status = quick_test_data.get(\\\"status\\\", \\\"unknown\\\")\""
+      },
+      {
+        "file": "placeholder_scan_report.json",
+        "line": 401,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "\"file\": \"PLACEHOLDER_SCAN_NIGHT1.md\","
+      },
+      {
+        "file": "placeholder_scan_report.json",
+        "line": 406,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "\"context\": \"**Scan Report:** placeholder_scan_report.json\""
+      },
+      {
+        "file": "PLACEHOLDER_SCAN_NIGHT1.md",
+        "line": 3,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "**Scan Report:** placeholder_scan_report.json"
+      },
+      {
+        "file": "pipeline/run.py",
+        "line": 67,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "quick_test_data = json.loads(quick_test_path.read_text())"
+      },
+      {
+        "file": "pipeline/run.py",
+        "line": 68,
+        "pattern": "fake_data",
+        "severity": "high",
+        "message": "Fake or placeholder data detected",
+        "context": "quick_test_status = quick_test_data.get(\"status\", \"unknown\")"
+      }
+    ],
+    "medium": [
+      {
+        "file": "install.sh",
+        "line": 100,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "log_error \"Installation incomplete ($CHECKS_PASSED/$CHECKS_TOTAL checks passed)\""
+      },
+      {
+        "file": "workers/clarification/orchestrator.py",
+        "line": 23,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "from employer_email_templates import format_approval_request_email as format_app"
+      },
+      {
+        "file": "workers/clarification/orchestrator.py",
+        "line": 24,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "from employer_email_templates import format_approval_request_email"
+      },
+      {
+        "file": "workers/clarification/orchestrator.py",
+        "line": 127,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "from employer_email_templates import format_approval_request_email"
+      },
+      {
+        "file": "workers/clarification/track_responses.py",
+        "line": 109,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "Attempts to match answers to questions using simple heuristics."
+      },
+      {
+        "file": "workers/clarification/employer_email_templates.py",
+        "line": 3,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "Employer Email Templates"
+      },
+      {
+        "file": "workers/candidate_intake/main.py",
+        "line": 89,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Sort by mtime to use temporal proximity"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 190,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# TODO: Replace with actual LLM call"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 216,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "This is a placeholder until we integrate actual LLM calls."
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 6,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "Semantic extraction using LLM + role templates."
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 18,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "- Load role template (default criteria)"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 19,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "- LLM analyzes JD \u2192 customizes template"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 73,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "def load_role_template(role_type: str) -> Dict:"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 75,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "template_path = Path(__file__).parent.parent.parent / \"data\" / \"role_templates\" "
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 76,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "if not template_path.exists():"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 77,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "raise FileNotFoundError(f\"Template not found: {template_path}\")"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 78,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "with open(template_path) as f:"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 99,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "def generate_rubric_llm(jd_text: str, template: Dict, founder_notes: Optional[st"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 101,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "Use LLM to generate rubric from template + JD."
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 104,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "1. LLM reads JD + template"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 124,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Role Template (Starting Point)"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 125,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "{json.dumps(template['default_criteria'], indent=2)}"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 187,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# For now, we'll use a hybrid approach: template + JD heuristics"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 191,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# For MVP, we'll use the template with JD-specific adjustments"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 200,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "role_type=template['role_type'],"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 203,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "meta_signals=rubric_data.get('meta_signals', template.get('meta_signals', {})),"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 213,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "def _fallback_rubric_generation(jd_text: str, template: Dict, job_title: str) ->"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 220,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Start with template criteria"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 222,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "for c in template['default_criteria']:"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 239,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "jd_evidence = \"Template criterion (adjust if not relevant)\""
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 274,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "'meta_signals': template.get('meta_signals', {})"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 382,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Load template"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 383,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "template = load_role_template(role_type)"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 384,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "logger.info(f\"Loaded template with {len(template['default_criteria'])} default c"
+      },
+      {
+        "file": "workers/rubric/main_v2.py",
+        "line": 387,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "rubric = generate_rubric_llm(jd_text, template, founder_text, jd_path=jd_path)"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v2.py",
+        "line": 118,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# TODO: Replace with actual LLM call"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 171,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# TODO: Replace with actual LLM API call"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 484,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# TODO: Replace with actual LLM API call"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 175,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Temporary: Call via subprocess to zo's LLM (if available)"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 177,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "import tempfile"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 179,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 183,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Attempt to use system LLM via stdin"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 488,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Temporary: Call via subprocess to zo's LLM (if available)"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 490,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "import tempfile"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 492,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:"
+      },
+      {
+        "file": "workers/scoring/_archive/main_v3_semantic.py",
+        "line": 496,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Attempt to use system LLM via stdin"
+      },
+      {
+        "file": "workers/scoring/_archive/main.py",
+        "line": 170,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# TODO: Replace with actual LLM API call"
+      },
+      {
+        "file": "workers/scoring/_archive/main.py",
+        "line": 172,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# This is a PLACEHOLDER - production should use anthropic/openai client"
+      },
+      {
+        "file": "workers/scoring/_archive/main.py",
+        "line": 177,
+        "pattern": "comment_placeholders",
+        "severity": "medium",
+        "message": "Undocumented placeholder comment",
+        "context": "# Placeholder: Use heuristic scoring as fallback"
+      }
+    ]
+  }
+}

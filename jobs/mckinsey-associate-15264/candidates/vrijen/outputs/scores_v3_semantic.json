@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-23T03:03:01.583469Z",
+  "candidate_id": "vrijen",
+  "job_id": "mckinsey-associate-15264",
+  "total": 90.0,
+  "scores": [
+    {
+      "criterion_id": "analytical_horsepower",
+      "criterion_name": "Analytical & Problem-Solving Capability",
+      "weight": 20.0,
+      "score": 9,
+      "weighted_score": 18.0,
+      "evidence": "McKinsey experience",
+      "reasoning": "Proven analytical capability through McKinsey tenure",
+      "match_type": "direct",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "client_impact",
+      "criterion_name": "Client Engagement & Impact",
+      "weight": 15.0,
+      "score": 9,
+      "weighted_score": 13.5,
+      "evidence": "McKinsey consulting",
+      "reasoning": "Direct client engagement experience",
+      "match_type": "direct",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "business_acumen",
+      "criterion_name": "Business & Functional Knowledge",
+      "weight": 15.0,
+      "score": 9,
+      "weighted_score": 13.5,
+      "evidence": "McKinsey background",
+      "reasoning": "McKinsey experience suggests strong foundation",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "communication",
+      "criterion_name": "Communication & Synthesis",
+      "weight": 12.0,
+      "score": 9,
+      "weighted_score": 10.8,
+      "evidence": "McKinsey consulting",
+      "reasoning": "Direct client engagement experience",
+      "match_type": "direct",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "learning_velocity",
+      "criterion_name": "Learning Agility & Adaptability",
+      "weight": 10.0,
+      "score": 9,
+      "weighted_score": 9.0,
+      "evidence": "McKinsey background",
+      "reasoning": "McKinsey experience suggests strong foundation",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "leadership_potential",
+      "criterion_name": "Leadership & Initiative",
+      "weight": 10.0,
+      "score": 9,
+      "weighted_score": 9.0,
+      "evidence": "McKinsey background",
+      "reasoning": "McKinsey experience suggests strong foundation",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "quantitative_aptitude",
+      "criterion_name": "Quantitative & Technical Capability",
+      "weight": 8.0,
+      "score": 9,
+      "weighted_score": 7.2,
+      "evidence": "McKinsey background",
+      "reasoning": "McKinsey experience suggests strong foundation",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "academic_pedigree",
+      "criterion_name": "Educational Background",
+      "weight": 5.0,
+      "score": 9,
+      "weighted_score": 4.5,
+      "evidence": "McKinsey background",
+      "reasoning": "McKinsey experience suggests strong foundation",
+      "match_type": "potential",
+      "transferable_note": ""
+    },
+    {
+      "criterion_id": "industry_depth",
+      "criterion_name": "Industry Expertise",
+      "weight": 5.0,
+      "score": 9,
+      "weighted_score": 4.5,
+      "evidence": "McKinsey background",
+      "reasoning": "McKinsey experience suggests strong foundation",
+      "match_type": "potential",
+      "transferable_note": ""
+    }
+  ],
+  "meta_signals": {
+    "trajectory": "ascending",
+    "trajectory_note": "Strong career progression visible",
+    "achievement_density": "high",
+    "achievement_note": "McKinsey tenure indicates high achievement",
+    "narrative_coherence": "strong",
+    "narrative_note": "Clear career story",
+    "learning_velocity": "fast",
+    "learning_note": "Rapid domain acquisition evident"
+  },
+  "red_flags": [],
+  "overall_impression": "Strong candidate. Former McKinsey employee with direct experience at target company. Top-tier education (Cornell MBA). Proven analytical and client engagement capabilities.",
+  "recommendation": "strong_pass",
+  "source": "scoring_v3_semantic"
+}

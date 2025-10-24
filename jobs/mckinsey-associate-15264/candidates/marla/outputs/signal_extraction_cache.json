@@ -1,0 +1,18 @@
+{
+  "business_impact": [],
+  "elite_signals": [
+    {"type": "top_tier_institution", "detail": "Harvard Graduate School of Education Master's", "boost_factor": 1.25}
+  ],
+  "consulting_experience": {
+    "has_direct": false,
+    "years": 0,
+    "firms": [],
+    "confidence": 0.95
+  },
+  "role_match": {
+    "fit_score": 0.15,
+    "reasons": [],
+    "concerns": ["Librarian/education specialist role - fundamental mismatch for management consulting position", "No business or analytical work experience", "Focus on children's programming and literacy, not strategy/business"]
+  },
+  "red_flags": ["Librarian/education specialist role - fundamental mismatch for management consulting position"]
+}

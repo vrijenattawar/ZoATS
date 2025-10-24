@@ -1,0 +1,62 @@
+{
+  "decision": "INTERVIEW",
+  "confidence": "medium",
+  "gestalt": {
+    "compelling_strengths": [
+      "Massive business impact: $500M",
+      "Elite selection: Selected from 4.0% pool"
+    ],
+    "gaps": [
+      "No direct consulting experience"
+    ],
+    "unique_bundle": "Non-traditional but high-ceiling: proven impact + elite credentials",
+    "why_interview_worthy": "Non-traditional but high-ceiling: proven impact + elite credentials"
+  },
+  "clarification": null,
+  "interview_guidance": {
+    "focus_areas": [
+      "Deep dive on $500M impact - your role vs team"
+    ],
+    "risks": [],
+    "strengths_to_validate": [
+      "Massive business impact: $500M",
+      "Elite selection: Selected from 4.0% pool"
+    ]
+  },
+  "signals": {
+    "business_impact": [
+      {
+        "value": "$500M",
+        "type": "growth"
+      },
+      {
+        "value": "$90M",
+        "type": "revenue"
+      },
+      {
+        "value": "$15M",
+        "type": "cost_savings"
+      }
+    ],
+    "elite_markers": [
+      "Selected from 4.0% pool",
+      "Elite military selection"
+    ],
+    "capabilities": {
+      "analytical_depth": 0.9,
+      "consulting_skills": 0.7714285714285714
+    },
+    "ai_detection": {
+      "likelihood": "low",
+      "confidence": 0.3,
+      "flags": [],
+      "scores": {
+        "burstiness": 0.72,
+        "generic_phrase_count": 0,
+        "specificity": 0.99
+      }
+    }
+  },
+  "timestamp": "2025-10-23T16:31:46.412662Z",
+  "source": "gestalt_v1"
+}

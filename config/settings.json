@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "jobs_dir": "jobs",
+  "inbox_drop": "inbox_drop",
+  "logs_dir": "logs",
+  "default_job": "demo"
+}

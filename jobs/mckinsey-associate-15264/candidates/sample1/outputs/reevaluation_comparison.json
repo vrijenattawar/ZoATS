@@ -1,0 +1,12 @@
+{
+  "candidate_id": "sample1",
+  "job_id": "mckinsey-associate-15264",
+  "original_decision": "INTERVIEW",
+  "new_decision": "STRONG_INTERVIEW",
+  "original_concerns": [
+    "No direct consulting experience"
+  ],
+  "new_concerns": [],
+  "clarification_effective": true,
+  "reevaluated_at": "2025-10-24T01:26:11.383636Z"
+}
