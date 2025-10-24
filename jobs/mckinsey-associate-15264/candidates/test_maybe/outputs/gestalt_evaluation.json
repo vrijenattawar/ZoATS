@@ -1,0 +1,39 @@
+{
+  "candidate_id": "test_maybe",
+  "job_id": "mckinsey-associate-15264",
+  "decision": "MAYBE",
+  "confidence": "medium",
+  "key_strengths": [
+    {
+      "category": "Industry Experience",
+      "evidence": "5 years in tech consulting",
+      "relevance": "Relevant domain knowledge"
+    }
+  ],
+  "concerns": [
+    {
+      "issue": "Gap in strategic project experience",
+      "severity": "moderate",
+      "can_mitigate": true
+    }
+  ],
+  "overall_narrative": "Solid foundation but needs clarification on key areas before advancing to interview.",
+  "interview_focus": [
+    "Assess strategic thinking capability",
+    "Evaluate stakeholder management experience"
+  ],
+  "clarification_questions": [
+    "Can you describe a project where you led strategic decision-making for a Fortune 500 client? Please include the scope, your specific role, and measurable outcomes.",
+    "Your resume mentions 'stakeholder management'—could you walk us through a situation where you navigated conflicting priorities among C-level executives? What was your approach and what did you learn?",
+    "We noticed a 6-month gap between your roles at TechCorp and ConsultCo. Could you help us understand what you were focused on during that time and how it relates to your consulting trajectory?"
+  ],
+  "ai_detection": {
+    "likelihood": "low",
+    "confidence": 0.8,
+    "flags": [],
+    "reasoning": "Natural language with specific details"
+  },
+  "elite_signals": [],
+  "business_impact": [],
+  "timestamp": "2025-10-24T03:04:00.000000Z"
+}

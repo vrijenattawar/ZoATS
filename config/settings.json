@@ -3,5 +3,11 @@
   "jobs_dir": "jobs",
   "inbox_drop": "inbox_drop",
   "logs_dir": "logs",
-  "default_job": "demo"
+  "default_job": "demo",
+  "email": {
+    "default_provider": "file",
+    "from_name": "Careerspan ATS",
+    "from_email": "no-reply@careerspan.example",
+    "outbox_dir": "outbox"
+  }
 }
